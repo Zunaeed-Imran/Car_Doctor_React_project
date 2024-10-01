@@ -1,86 +1,56 @@
-import logoimage from "../assets/logo/Logo.png";
+// import { TiShoppingCart } from "react-icons/ti";
+// import logoimage from "../assets/logo/Logo.png";
+import { FaBars } from "react-icons/fa";
+import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 
 
 
 function Navbar() {
   return (
-    <div>
-      <div className="navbar bg-base-100">
-        <div className="flex-auto">
-          <a className="btn btn-ghost text-xl">Home</a>
-        </div>
-        <div className="flex-none">
-          <div className="dropdown dropdown-end">
-            <div
-              tabIndex={0}
-              role="button"
-              className="btn btn-ghost btn-circle"
+    <div className="flex justify-between items-center fixed w-full bg-orange-50	 p-3 px-4 md:px-10 lg:px-20 z-50">
+      <div className="flex items-center">
+        <button className="md:hidden">
+          {' '}
+          {/* Hamburger menu visible on mobile */}
+          <FaBars />
+        </button>
+        <IconContext.Provider value={{ size: '1rem', color: '#f2f7f5' }}>
+          <div className="hidden md:flex gap-3">
+            {' '}
+            {/* Hidden on mobile */}
+            <Link
+              to="/"
+              className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-orange-100	 hover:bg-orange-300"
             >
-              <div className="indicator">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-                  />
-                </svg>
-                <span className="badge badge-sm indicator-item">8</span>
-              </div>
-            </div>
-            <div
-              tabIndex={0}
-              className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow"
+              Home
+            </Link>
+            <Link
+              to="/DoctorP"
+              className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-orange-100	 hover:bg-orange-300"
             >
-              <div className="card-body">
-                <span className="text-lg font-bold">8 Items</span>
-                <span className="text-info">Subtotal: $999</span>
-                <div className="card-actions">
-                  <button className="btn btn-primary btn-block">
-                    View cart
-                  </button>
-                </div>
-              </div>
-            </div>
+              About
+            </Link>
+            <Link
+              to="/appointment"
+              className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-orange-100 hover:bg-orange-300"
+            >
+              Services
+            </Link>
+            <Link
+              to="/patientDash"
+              className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-orange-100 hover:bg-orange-300"
+            >
+              Blog
+            </Link>
+            <Link
+              to="/patientDash"
+              className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-orange-100 hover:bg-orange-300"
+            >
+              Contact
+            </Link>
           </div>
-          <div className="dropdown dropdown-end">
-            <div
-              tabIndex={0}
-              role="button"
-              className="btn btn-ghost btn-circle avatar"
-            >
-              <div className="w-20">
-                <img
-                  alt="Tailwind CSS Navbar component"
-                  src={logoimage}
-                />
-              </div>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-            >
-              <li>
-                <a className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
-                </a>
-              </li>
-              <li>
-                <a>Settings</a>
-              </li>
-              <li>
-                <a>Logout</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        </IconContext.Provider>
       </div>
     </div>
   );
