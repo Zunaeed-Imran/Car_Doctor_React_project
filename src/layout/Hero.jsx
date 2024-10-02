@@ -1,12 +1,13 @@
+import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
 import $heroImg from "../assets/pageImage/hero.jpeg";
 
 
 function Hero() {
   return (
     <div className="pt-1">
-      <div className="hero min-h-screen">
+      <div className="hero">
         <img src={$heroImg} alt="hero-image" />
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">
@@ -18,7 +19,17 @@ function Hero() {
             </p>
             <div className="flex gap-3">
               <button className="btn btn-primary">Discover More</button>
-              <button className="btn btn-outline text-white">Latest Project</button>
+              <button className="btn btn-outline text-white">
+                Latest Project
+              </button>
+            </div>
+            <div>
+              <button className="btn btn-circle btn-outline bg-[#FF4500]">
+                <HiArrowSmLeft size="1.5rem" />
+              </button>
+              <button className="btn btn-circle btn-outline bg-[#FF4500]">
+                <HiArrowSmRight size="1.5rem" />
+              </button>
             </div>
           </div>
         </div>
