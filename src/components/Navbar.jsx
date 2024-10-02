@@ -59,13 +59,13 @@ function Navbar() {
               to="/patientDash"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2"
             >
-              <CiShoppingBasket />
+              <CiShoppingBasket size={'1.5rem'} />
             </Link>
             <Link
               to="/patientDash"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2"
             >
-              <CiSearch />
+              <CiSearch size={'1.5rem'}/>
             </Link>
             <AppointmentButton/>
           </div>
