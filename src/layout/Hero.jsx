@@ -1,24 +1,25 @@
+import $heroImg from "../assets/pageImage/hero.jpeg";
+
 
 function Hero() {
   return (
-    <div className="pt-20">
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            'url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)',
-        }}
-      >
+    <div className="pt-1">
+      <div className="hero min-h-screen">
+        <img src={$heroImg} alt="hero-image" />
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+            <h1 className="mb-5 text-5xl font-bold">
+              Affordable Price For Car Servicing
+            </h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              There are many variations of passages of available, but the
+              majority have suffered alteration in some form
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <div className="flex gap-3">
+              <button className="btn btn-primary">Discover More</button>
+              <button className="btn btn-outline text-white">Latest Project</button>
+            </div>
           </div>
         </div>
       </div>
