@@ -18,8 +18,10 @@ function Hero() {
               majority have suffered alteration in some form
             </p>
             <div className="flex gap-3">
-              <button className="btn btn-primary">Discover More</button>
-              <button className="btn btn-outline text-white">
+              <button className="btn bg-[#FF4500] hover:bg-[#FF4500] text-white">
+                Discover More
+              </button>
+              <button className="btn btn-outline hover:bg-[#FF4500] text-white">
                 Latest Project
               </button>
             </div>
