@@ -1,5 +1,6 @@
 
 import './App.css'
+import Hero from './layout/Hero';
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-      <h1 className="text-xl font-bold underline">This is Car Doctor.</h1>
+        <Hero/>
       </div>
     </>
   );

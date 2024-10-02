@@ -9,7 +9,7 @@ import AppointmentButton from "./card/button/AppointmentButton";
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center fixed w-full bg-slate-50	 p-3 px-4 md:px-10 lg:px-20 z-50">
+    <div className="flex top-0 justify-between items-center fixed w-full bg-slate-50	 p-3 px-4 md:px-10 lg:px-20 z-50">
       <div className="flex items-center">
         <button className="md:hidden">
           {' '}
