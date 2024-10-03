@@ -1,4 +1,4 @@
-
+import $electricimg from "../assets/cardImage/Machanic.png";
 
 function Service() {
   return (
@@ -12,7 +12,7 @@ function Service() {
         </p>
       </div>
       <div className="">
-        <img src="" alt="" />
+        <img src={$electricimg} alt="" />
         <p></p>
         <p></p>
       </div>
