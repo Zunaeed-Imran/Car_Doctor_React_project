@@ -11,6 +11,11 @@ function Service() {
           humour, or randomised <br /> words which dont look even slightly believable.
         </p>
       </div>
+      <div className="">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </div>
     </div>
   );
 }
