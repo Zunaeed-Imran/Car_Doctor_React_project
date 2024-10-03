@@ -20,6 +20,9 @@ function AboutUs() {
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which dont look even slightly believable.
         </p>
+        <button className="btn bg-orange-600 hover:bg-orange-500 text-white">
+          Get More Info
+        </button>
       </div>
     </div>
   );
