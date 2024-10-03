@@ -1,5 +1,6 @@
 
 import './App.css'
+import AboutUs from './components/AboutUs';
 import Hero from './layout/Hero';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       <div>
-        <Hero/>
+        <Hero />
+        <AboutUs/>
       </div>
     </>
   );
