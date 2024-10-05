@@ -23,6 +23,6 @@ export default ServiceCard
 
 ServiceCard.propTypes = {
   img: PropTypes.string,
-  name: PropTypes.string,
+  name: PropTypes.text,
   price: PropTypes.string
 };
