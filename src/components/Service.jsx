@@ -14,55 +14,34 @@ function Service() {
         <h1 className="text-3xl font-bold pb-3">Our Service Area</h1>
         <p className="">
           the majority have suffered alteration in some form, by injected
-          humour, or randomised <br /> words which dont look even slightly believable.
+          humour, or randomised <br /> words which dont look even slightly
+          believable.
         </p>
       </div>
       <div className="">
         <img src={$electricimg} alt="electrice system" />
-        <p>
-        name={"Electrical System"}
-        </p>
-        <p>
-        price={"$20.00"}
-        </p>
+        <p>name={'Electrical System'}</p>
+        <p>price={'$20.00'}</p>
         <img src={$maontanance} alt="maintanance" />
-        <p>
-        name={"Engine Diagnostics"}
-        </p>
-        <p>
-        price={"$20.00"}
-        </p>
+        <p>name={'Engine Diagnostics'}</p>
+        <p>price={'$20.00'}</p>
         <img src={$autoCar} alt="auto car" />
-        <p>
-        name={"Auto Car Repiar"}
-        </p>
-        <p>
-        price={"$20.00"}
-        </p>
+        <p>name={'Auto Car Repiar'}</p>
+        <p>price={'$20.00'}</p>
         <img src={$Elictrical} alt="Electrical" />
-        <p>
-        name={"Electrical System"}
-        </p>
-        <p>
-        price={"$20.00"}
-        </p>
+        <p>name={'Electrical System'}</p>
+        <p>price={'$20.00'}</p>
         <img src={$engineOil} alt="EngoneOil" />
-        <p>
-        name={"Engine Diagnostice"}
-        </p>
-        <p>
-        price={"$20.00"}
-        </p>
+        <p>name={'Engine Diagnostice'}</p>
+        <p>price={'$20.00'}</p>
         <img src={$autoRepiar} alt="auto car repiar" />
-        <p>
-        name={"Auto Car Repiar"}
-        </p>
-        <p>
-        price={"$20.00"}
-        </p>
+        <p>name={'Auto Car Repiar'}</p>
+        <p>price={'$20.00'}</p>
       </div>
-      <div>
-        
+      <div className="">
+        <button className="btn btn-outline hover:bg-orange-600 text-orange-600">
+          More Service
+        </button>
       </div>
     </div>
   );
