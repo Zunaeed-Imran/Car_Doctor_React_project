@@ -5,6 +5,7 @@ import $Elictrical from "../assets/cardImage/Elictric.png";
 import $engineOil from "../assets/cardImage/engineOil.png";
 import $autoRepiar from "../assets/cardImage/autoCarRepiar.png";
 
+
 function Service() {
   return (
     <div>
@@ -24,17 +25,20 @@ function Service() {
         name={"Engine Diagnostics"}
         price={"$20.00"}
         <img src={$autoCar} alt="auto car" />
-        name={"Engine Diagnostics"}
+        name={"Auto Car Repiar"}
         price={"$20.00"}
         <img src={$Elictrical} alt="Electrical" />
-        name={"Engine Diagnostics"}
+        name={"Electrical System"}
         price={"$20.00"}
         <img src={$engineOil} alt="EngoneOil" />
-        name={"Engine Diagnostics"}
+        name={"Engine Diagnostice"}
         price={"$20.00"}
         <img src={$autoRepiar} alt="auto car repiar" />
-        name={"Engine Diagnostics"}
+        name={"Auto Car Repiar"}
         price={"$20.00"}
+      </div>
+      <div>
+        
       </div>
     </div>
   );
