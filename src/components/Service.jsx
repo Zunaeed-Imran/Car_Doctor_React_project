@@ -5,6 +5,7 @@ import $Elictrical from "../assets/cardImage/Elictric.png";
 import $engineOil from "../assets/cardImage/engineOil.png";
 import $autoRepiar from "../assets/cardImage/autoCarRepiar.png";
 import ServiceContact from "./card/ServiceContact";
+import ServiceCard from "./card/ServiceCard";
 
 
 function Service() {
@@ -20,24 +21,33 @@ function Service() {
         </p>
       </div>
       <div className="">
-        <img src={$electricimg} alt="electrice system" />
-        <p>name={'Electrical System'}</p>
-        <p>price={'$20.00'}</p>
-        <img src={$maontanance} alt="maintanance" />
-        <p>name={'Engine Diagnostics'}</p>
-        <p>price={'$20.00'}</p>
-        <img src={$autoCar} alt="auto car" />
-        <p>name={'Auto Car Repiar'}</p>
-        <p>price={'$20.00'}</p>
-        <img src={$Elictrical} alt="Electrical" />
-        <p>name={'Electrical System'}</p>
-        <p>price={'$20.00'}</p>
-        <img src={$engineOil} alt="EngoneOil" />
-        <p>name={'Engine Diagnostice'}</p>
-        <p>price={'$20.00'}</p>
-        <img src={$autoRepiar} alt="auto car repiar" />
-        <p>name={'Auto Car Repiar'}</p>
-        <p>price={'$20.00'}</p>
+        <ServiceCard
+          img={$electricimg}
+          name={'Electrical System'}
+          price={'$20.00'}
+        />
+        <ServiceCard
+          img={$maontanance}
+          name={'Engine Diagnostics'}
+          price={'$20.00'}
+        />
+        <ServiceCard img={$autoCar} name={'Auto Car Repiar'} price={'$20.00'} />
+        <ServiceCard
+          img={$Elictrical}
+          name={'Electrical System'}
+          price={'$20.00'}
+        />
+        <ServiceCard
+          img={$engineOil}
+          name={'Engine Diagnostice'}
+          price={'$20.00'}
+        />
+        <ServiceCard
+          img={$autoRepiar}
+          name={'Auto Car Repiar'}
+          price={'$20.00'}
+        />
+
       </div>
       <div className="py-8">
         <button className="btn btn-outline hover:bg-orange-600 text-orange-600">
@@ -45,9 +55,8 @@ function Service() {
         </button>
       </div>
       <div>
-        <ServiceContact/>
+        <ServiceContact />
       </div>
-
     </div>
   );
 }
