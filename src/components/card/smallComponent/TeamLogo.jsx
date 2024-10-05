@@ -4,11 +4,11 @@ import { FaFacebook, FaInstagramSquare, FaLinkedin, FaTwitterSquare } from "reac
 function TeamLogo() {
   return (
     <div>
-      <div>
-        <FaFacebook />
-        <FaTwitterSquare />
-        <FaLinkedin />
-        <FaInstagramSquare />
+      <div className="flex">
+        <FaFacebook size={'1.5rem'}/>
+        <FaTwitterSquare size={'1.5rem'}/>
+        <FaLinkedin size={'1.5rem'}/>
+        <FaInstagramSquare size={'1.5rem'}/>
       </div>
     </div>
   );
