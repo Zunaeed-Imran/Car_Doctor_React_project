@@ -38,7 +38,7 @@ function Service() {
         <p>name={'Auto Car Repiar'}</p>
         <p>price={'$20.00'}</p>
       </div>
-      <div className="">
+      <div className="pt-8">
         <button className="btn btn-outline hover:bg-orange-600 text-orange-600">
           More Service
         </button>
