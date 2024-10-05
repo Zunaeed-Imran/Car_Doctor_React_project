@@ -1,4 +1,9 @@
-import $electricimg from "../assets/cardImage/Machanic.png";
+import $electricimg from "../assets/cardImage/maintanance.png";
+import $maontanance from "../assets/cardImage/Machanic.png";
+import $autoCar from "../assets/cardImage/Rectangle 7 (2).png";
+import $Elictrical from "../assets/cardImage/Elictric.png";
+import $engineOil from "../assets/cardImage/engineOil.png";
+import $autoRepiar from "../assets/cardImage/autoCarRepiar.png";
 
 function Service() {
   return (
@@ -12,9 +17,24 @@ function Service() {
         </p>
       </div>
       <div className="">
-        <img src={$electricimg} alt="" />
-        <p></p>
-        <p></p>
+        <img src={$electricimg} alt="electrice system" />
+        name={"Electrical System"}
+        price={"$20.00"}
+        <img src={$maontanance} alt="maintanance" />
+        name={"Engine Diagnostics"}
+        price={"$20.00"}
+        <img src={$autoCar} alt="auto car" />
+        name={"Engine Diagnostics"}
+        price={"$20.00"}
+        <img src={$Elictrical} alt="Electrical" />
+        name={"Engine Diagnostics"}
+        price={"$20.00"}
+        <img src={$engineOil} alt="EngoneOil" />
+        name={"Engine Diagnostics"}
+        price={"$20.00"}
+        <img src={$autoRepiar} alt="auto car repiar" />
+        name={"Engine Diagnostics"}
+        price={"$20.00"}
       </div>
     </div>
   );

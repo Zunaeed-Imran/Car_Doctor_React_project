@@ -6,7 +6,9 @@ function ServiceCard({img, name, price}) {
   return (
     <div>
       <div className="">
-        <figure>{img}</figure>
+        <figure>
+          {img}
+        </figure>
         <p>{name}</p>
         <p>{price}</p>
       </div>
