@@ -19,23 +19,47 @@ function Service() {
       </div>
       <div className="">
         <img src={$electricimg} alt="electrice system" />
+        <p>
         name={"Electrical System"}
+        </p>
+        <p>
         price={"$20.00"}
+        </p>
         <img src={$maontanance} alt="maintanance" />
+        <p>
         name={"Engine Diagnostics"}
+        </p>
+        <p>
         price={"$20.00"}
+        </p>
         <img src={$autoCar} alt="auto car" />
+        <p>
         name={"Auto Car Repiar"}
+        </p>
+        <p>
         price={"$20.00"}
+        </p>
         <img src={$Elictrical} alt="Electrical" />
+        <p>
         name={"Electrical System"}
+        </p>
+        <p>
         price={"$20.00"}
+        </p>
         <img src={$engineOil} alt="EngoneOil" />
+        <p>
         name={"Engine Diagnostice"}
+        </p>
+        <p>
         price={"$20.00"}
+        </p>
         <img src={$autoRepiar} alt="auto car repiar" />
+        <p>
         name={"Auto Car Repiar"}
+        </p>
+        <p>
         price={"$20.00"}
+        </p>
       </div>
       <div>
         
