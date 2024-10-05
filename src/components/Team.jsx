@@ -1,5 +1,7 @@
 import TeamCard from "./card/TeamCard";
 import engineExpart from "../assets/avater/member3.png";
+import man2 from "../assets/avater/member2.png";
+import man3 from "../assets/avater/member1.png";
 
 function Team() {
   return (
@@ -15,6 +17,14 @@ function Team() {
       <div>
         <TeamCard
           img={engineExpart}
+          name={'Car Engine Plug'}
+          title={'Engine Expart'} />
+        <TeamCard
+          img={man2}
+          name={'Car Engine Plug'}
+          title={'Engine Expart'} />
+        <TeamCard
+          img={man3}
           name={'Car Engine Plug'}
           title={'Engine Expart'} />
       </div>
