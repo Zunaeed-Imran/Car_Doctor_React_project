@@ -1,6 +1,7 @@
 
 import './App.css'
 import AboutUs from './components/AboutUs';
+import PopularProduct from './components/PopularProduct';
 import Service from './components/Service';
 import Hero from './layout/Hero';
 
@@ -12,7 +13,8 @@ function App() {
       <div>
         <Hero />
         <AboutUs />
-        <Service/>
+        <Service />
+        <PopularProduct/>
       </div>
     </>
   );
