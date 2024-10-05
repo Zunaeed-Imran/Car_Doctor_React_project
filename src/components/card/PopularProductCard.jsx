@@ -4,10 +4,12 @@ function PopularProductCard({img, star, name, price}) {
   return (
     <div>
       <div>
-        img={img}
-        star={star}
-        name={name}
-        price={price}
+        <figure>
+          {img}
+        </figure>
+        <p>{star}</p>
+        <p>{name}</p>
+        <p>{price}</p>
       </div>
     </div>
   )
