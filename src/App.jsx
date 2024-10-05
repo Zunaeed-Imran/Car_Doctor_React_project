@@ -3,6 +3,7 @@ import './App.css'
 import AboutUs from './components/AboutUs';
 import PopularProduct from './components/PopularProduct';
 import Service from './components/Service';
+import Team from './components/Team';
 import Hero from './layout/Hero';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         <Hero />
         <AboutUs />
         <Service />
-        <PopularProduct/>
+        <PopularProduct />
+        <Team/>
       </div>
     </>
   );
