@@ -57,7 +57,11 @@ function PopularProduct() {
           price={'$20.00'}
         />
       </div>
-      
+      <div className="p-10">
+        <button className="btn btn-outline hover:bg-orange-600 text-orange-600">
+          More Product
+        </button>
+      </div>
     </div>
   );
 }
