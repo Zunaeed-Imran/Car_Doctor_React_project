@@ -17,11 +17,12 @@ function PopularProduct() {
       <div>
         <PopularProductCard
           img={carEngine}
+          star={<RatingProduct />}
           name={'Car Engine Plug'}
-          price={'$20.00'} />
-        <p>
-          <RatingProduct />
-        </p>
+          price={'$20.00'}
+        />
+
+        <p></p>
       </div>
     </div>
   );
