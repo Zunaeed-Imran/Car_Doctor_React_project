@@ -1,6 +1,11 @@
 import RatingProduct from "./card/smallComponent/RatingProduct";
-import carEngine from "../assets/cardImage/engine.png";
 import PopularProductCard from "./card/PopularProductCard";
+import carEngine from "../assets/cardImage/engine.png";
+import airFilter from "../assets/cardImage/airFilter.png";
+import rearBreack from "../assets/cardImage/rearbreak.png";
+import frontBreack from "../assets/cardImage/front_break.png";
+import tair from "../assets/cardImage/tair.png";
+import battery from "../assets/cardImage/COOLS_LED.png";
 
 function PopularProduct() {
   return (
@@ -21,9 +26,38 @@ function PopularProduct() {
           name={'Car Engine Plug'}
           price={'$20.00'}
         />
-
-        <p></p>
+        <PopularProductCard
+          img={airFilter}
+          star={<RatingProduct />}
+          name={'Car Air Filter'}
+          price={'$20.00'}
+        />
+        <PopularProductCard
+          img={rearBreack}
+          star={<RatingProduct />}
+          name={'Cools Led Light'}
+          price={'$20.00'}
+        />
+        <PopularProductCard
+          img={frontBreack}
+          star={<RatingProduct />}
+          name={'Cools Led Light'}
+          price={'$20.00'}
+        />
+        <PopularProductCard
+          img={tair}
+          star={<RatingProduct />}
+          name={'Cools Led Light'}
+          price={'$20.00'}
+        />
+        <PopularProductCard
+          img={battery}
+          star={<RatingProduct />}
+          name={'Cools Led Light'}
+          price={'$20.00'}
+        />
       </div>
+      
     </div>
   );
 }
