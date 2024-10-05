@@ -4,6 +4,7 @@ import $autoCar from "../assets/cardImage/Rectangle 7 (2).png";
 import $Elictrical from "../assets/cardImage/Elictric.png";
 import $engineOil from "../assets/cardImage/engineOil.png";
 import $autoRepiar from "../assets/cardImage/autoCarRepiar.png";
+import ServiceContact from "./card/ServiceContact";
 
 
 function Service() {
@@ -38,11 +39,15 @@ function Service() {
         <p>name={'Auto Car Repiar'}</p>
         <p>price={'$20.00'}</p>
       </div>
-      <div className="pt-8">
+      <div className="py-8">
         <button className="btn btn-outline hover:bg-orange-600 text-orange-600">
           More Service
         </button>
       </div>
+      <div>
+        <ServiceContact/>
+      </div>
+
     </div>
   );
 }
