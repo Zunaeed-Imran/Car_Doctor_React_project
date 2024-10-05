@@ -1,5 +1,6 @@
 import RatingProduct from "./card/smallComponent/RatingProduct";
 import carEngine from "../assets/cardImage/engine.png";
+import PopularProductCard from "./card/PopularProductCard";
 
 function PopularProduct() {
   return (
@@ -9,14 +10,18 @@ function PopularProduct() {
         <h1 className="text-3xl font-bold">Browse Our Products</h1>
         <p>
           the majority have suffered alteration in some form, by injected
-          humour, or randomised <br /> words which dont look even slightly believable.
+          humour, or randomised <br /> words which dont look even slightly
+          believable.
         </p>
       </div>
       <div>
-        <img src={carEngine} alt="" />
-        <p><RatingProduct/></p>
-        <p>{"Car Engine Plug"}</p>
-        <p>{"$20.00"}</p>
+        <PopularProductCard
+          img={carEngine}
+          name={'Car Engine Plug'}
+          price={'$20.00'} />
+        <p>
+          <RatingProduct />
+        </p>
       </div>
     </div>
   );

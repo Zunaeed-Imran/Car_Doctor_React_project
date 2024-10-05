@@ -5,7 +5,7 @@ function PopularProductCard({img, name, price}) {
     <div>
       <div>
         <figure>
-          {img}
+          <img src={img} alt="carEngine" />
         </figure>
         <p>{name}</p>
         <p>{price}</p>
