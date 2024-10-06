@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function PopularProductCard({img, star, name, price}) {
   return (
     <div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center gap-2 py-2">
         <img src={img} alt="carEngine" className="block" />
         <p>{star}</p>
         <p className="text-2xl font-bold text-center py-2">{name}</p>
