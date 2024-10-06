@@ -5,6 +5,7 @@ import CoreFeatures from './components/CoreFeatures';
 import PopularProduct from './components/PopularProduct';
 import Service from './components/Service';
 import Team from './components/Team';
+import Testimonial from './components/Testimonial';
 import Hero from './layout/Hero';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
         <Service />
         <PopularProduct />
         <Team />
-        <CoreFeatures/>
+        <CoreFeatures />
+        <Testimonial/>
       </div>
     </>
   );
