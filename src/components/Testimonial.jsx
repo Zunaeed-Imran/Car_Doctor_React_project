@@ -1,6 +1,7 @@
 import ReviewCard from "./card/ReviewCard";
 import RatingProduct from "./card/smallComponent/RatingProduct";
-
+import man1 from "../assets/avater/man2.png";
+import man2 from "../assets/avater/man1.png";
 
 function Testimonial() {
   return (
@@ -16,7 +17,14 @@ function Testimonial() {
       </div>
       <div>
         <ReviewCard
-          img={''}
+          img={man1}
+          name={'Awlad Hossain'}
+          title={'Businessman'}
+          comment={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'}
+          star={<RatingProduct/>}
+        />
+        <ReviewCard
+          img={man2}
           name={'Awlad Hossain'}
           title={'Businessman'}
           comment={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'}
