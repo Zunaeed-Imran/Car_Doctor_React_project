@@ -48,7 +48,7 @@ function Service() {
           price={'Price : $20.00'}
         />
       </div>
-      <div className="py-8">
+      <div className="py-8 pb-20">
         <button className="btn btn-outline hover:bg-orange-600 text-orange-600">
           More Service
         </button>
