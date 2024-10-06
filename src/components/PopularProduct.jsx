@@ -10,9 +10,11 @@ import battery from "../assets/cardImage/COOLS_LED.png";
 function PopularProduct() {
   return (
     <div className="p-10">
-      <div>
-        <p className="text-xl font-bold text-orange-600">Popular Products</p>
-        <h1 className="text-3xl font-bold">Browse Our Products</h1>
+      <div className="flex flex-col gap-3 pb-7">
+        <p className="text-xl font-bold text-orange-600 p-3 pt-14">
+          Popular Products
+        </p>
+        <h1 className="text-5xl font-bold pb-5">Browse Our Products</h1>
         <p>
           the majority have suffered alteration in some form, by injected
           humour, or randomised <br /> words which dont look even slightly
