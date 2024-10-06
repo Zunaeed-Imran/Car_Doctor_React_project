@@ -9,7 +9,7 @@ function TeamCard({img, name, title, socialLogo}) {
       </figure>
       <p className='text-2xl font-bold'>{name}</p>
       <p className='text-xl'>{title}</p>
-      <p>{socialLogo}</p>
+      <p className='flex'>{socialLogo}</p>
     </div>
   )
 }
