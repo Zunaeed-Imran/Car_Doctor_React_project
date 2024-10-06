@@ -1,4 +1,4 @@
-import logo from '../assets/logo/Logo.png';
+import logo from "../assets/logo/FooterLogo.png";
 import FooterLogo from '../components/card/smallComponent/FooterLogo';
 
 function Footer() {
