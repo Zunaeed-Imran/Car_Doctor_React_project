@@ -6,28 +6,28 @@ function ServiceContact() {
   return (
     <div className="bg-black text-white p-20 rounded-md">
       <div className="flex flex-row gap-11 justify-between">
-        <div className=''>
+        <div className="">
           <div>
-            <SlCalender size={'2rem'}/>
-          </div>
-          <div>
-            <p className='text-xl'>We are open monday-friday</p>
-            <p className='text-2xl font-bold'>7:00 am - 9:00 pm</p>
+            <p className="text-xl flex items-center gap-3">
+              <SlCalender size={'2rem'} /> We are open monday-friday
+            </p>
+            <p className="text-2xl font-bold">7:00 am - 9:00 pm</p>
           </div>
         </div>
         <div>
-          <div>
-            <MdAddIcCall size={'2rem'}/>
-          </div>
-          <p className='text-xl'>Have a question?</p>
-          <p className='text-2xl font-bold'>+2546 251 2658</p>
+          <p className="text-xl flex items-center gap-3">
+            <MdAddIcCall size={'2rem'} />
+            Have a question?
+          </p>
+          <p className="text-2xl font-bold">+2546 251 2658</p>
         </div>
         <div>
-          <div>
-            <FaLocationDot size={'2rem'}/>
-          </div>
-          <p className='text-xl'>Need a repair? our address</p>
-          <p className='text-2xl font-bold'>Liza Street, New York</p>
+          <div></div>
+          <p className="text-xl flex items-center gap-3">
+            <FaLocationDot size={'2rem'} />
+            Need a repair? our address
+          </p>
+          <p className="text-2xl font-bold">Liza Street, New York</p>
         </div>
       </div>
     </div>
