@@ -1,6 +1,7 @@
 
 import './App.css'
 import AboutUs from './components/AboutUs';
+import CoreFeatures from './components/CoreFeatures';
 import PopularProduct from './components/PopularProduct';
 import Service from './components/Service';
 import Team from './components/Team';
@@ -16,7 +17,8 @@ function App() {
         <AboutUs />
         <Service />
         <PopularProduct />
-        <Team/>
+        <Team />
+        <CoreFeatures/>
       </div>
     </>
   );
