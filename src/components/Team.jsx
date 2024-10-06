@@ -7,10 +7,10 @@ import TeamLogo from "./card/smallComponent/TeamLogo";
 function Team() {
   return (
     <div className="p-10">
-      <div>
+      <div className="flex flex-col gap-3 pb-7">
         <p className="text-xl font-bold text-orange-600 py-3">Team</p>
-        <h1 className="text-3xl font-bold py-3">Meet Our Team</h1>
-        <p>
+        <h1 className="text-5xl font-bold py-3">Meet Our Team</h1>
+        <p className="pb-5">
           the majority have suffered alteration in some form, by injected
           humour, or randomised <br /> words which dont look even slightly
           believable.
@@ -19,20 +19,20 @@ function Team() {
       <div>
         <TeamCard
           img={engineExpart}
-          name={"Car Engine Plug"}
-          title={"Engine Expart"}
+          name={'Car Engine Plug'}
+          title={'Engine Expart'}
           socialLogo={<TeamLogo />}
         />
         <TeamCard
           img={man2}
-          name={"Car Engine Plug"}
-          title={"Engine Expart"}
+          name={'Car Engine Plug'}
+          title={'Engine Expart'}
           socialLogo={<TeamLogo />}
         />
         <TeamCard
           img={man3}
-          name={"Car Engine Plug"}
-          title={"Engine Expart"}
+          name={'Car Engine Plug'}
+          title={'Engine Expart'}
           socialLogo={<TeamLogo />}
         />
       </div>
