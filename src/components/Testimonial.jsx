@@ -1,3 +1,4 @@
+import ReviewCard from "./card/ReviewCard";
 
 
 function Testimonial() {
@@ -8,11 +9,12 @@ function Testimonial() {
         <h1 className="text-3xl font-bold">What Customer Says</h1>
         <p className="py-2">
           the majority have suffered alteration in some form, by injected
-          humour, or randomised <br /> words which donSt look even slightly believable.
+          humour, or randomised <br /> words which donSt look even slightly
+          believable.
         </p>
       </div>
       <div>
-        
+        <ReviewCard/>
       </div>
     </div>
   );
