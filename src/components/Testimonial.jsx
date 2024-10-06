@@ -1,4 +1,5 @@
 import ReviewCard from "./card/ReviewCard";
+import RatingProduct from "./card/smallComponent/RatingProduct";
 
 
 function Testimonial() {
@@ -14,7 +15,13 @@ function Testimonial() {
         </p>
       </div>
       <div>
-        <ReviewCard/>
+        <ReviewCard
+          img={''}
+          name={'Awlad Hossain'}
+          title={'Businessman'}
+          comment={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'}
+          star={<RatingProduct/>}
+        />
       </div>
     </div>
   );
