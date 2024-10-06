@@ -21,7 +21,7 @@ function PopularProduct() {
           believable.
         </p>
       </div>
-      <div>
+      <div className="grid grid-cols-3">
         <PopularProductCard
           img={carEngine}
           star={<RatingProduct />}
