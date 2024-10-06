@@ -16,7 +16,7 @@ function Team() {
           believable.
         </p>
       </div>
-      <div>
+      <div className="grid grid-cols-3">
         <TeamCard
           img={engineExpart}
           name={'Car Engine Plug'}
