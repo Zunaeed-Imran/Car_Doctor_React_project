@@ -9,28 +9,40 @@ import { TbTruckDelivery } from "react-icons/tb";
 function CoreFeatures() {
   return (
     <div>
-      <div className="py-4">
+      <div className="flex flex-col gap-3 py-10">
         <p className="text-xl font-bold text-orange-600 py-2">Core Features</p>
-        <h1 className="text-3xl font-bold py-2">Why Choose Us</h1>
+        <h1 className="text-5xl font-bold py-2">Why Choose Us</h1>
         <p className="py-4">
           the majority have suffered alteration in some form, by injected
           humour, or randomised <br /> words which dont look even slightly
           believable.
         </p>
       </div>
-      <div>
-        <RiTeamFill />
-        <p>Expart Team</p>
-        <IoTimer />
-        <p>Timely Delivery</p>
-        <FcCustomerSupport />
-        <p>24/7 Support</p>
-        <FaTools />
-        <p>Best Equipment</p>
-        <SiAdguard />
-        <p>100% Guranty</p>
-        <TbTruckDelivery />
-        <p>Timely Delivery</p>
+      <div className="flex flex-row justify-center gap-6 pb-5">
+        <div className="flex flex-col items-center justify-center">
+          <RiTeamFill size={'5rem'} className="pb-3" />
+          <p className="text-xl font-bold text-center">Expart Team</p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <IoTimer size={'5rem'} className="pb-3" />
+          <p className="text-xl font-bold text-center">Timely Delivery</p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FcCustomerSupport size={'5rem'} className="pb-3" />
+          <p className="text-xl font-bold text-center">24/7 Support</p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <FaTools size={'5rem'} className="pb-3" />
+          <p className="text-xl font-bold text-center">Best Equipment</p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <SiAdguard size={'5rem'} className="pb-3" />
+          <p className="text-xl font-bold text-center">100% Guranty</p>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <TbTruckDelivery size={'5rem'} className="pb-3" />
+          <p className="text-xl font-bold text-center">Timely Delivery</p>
+        </div>
       </div>
     </div>
   );
