@@ -11,43 +11,42 @@ import ServiceCard from "./card/ServiceCard";
 function Service() {
   return (
     <div>
-      <div>
+      <div className="flex flex-col gap-3 pb-5">
         <p className="text-xl font-bold text-orange-600 p-3">Service</p>
-        <h1 className="text-3xl font-bold pb-3">Our Service Area</h1>
-        <p className="">
+        <h1 className="text-5xl font-bold pb-5">Our Service Area</h1>
+        <p className="mb-3">
           the majority have suffered alteration in some form, by injected
           humour, or randomised <br /> words which dont look even slightly
           believable.
         </p>
       </div>
-      <div className="">
+      <div className="grid grid-cols-3">
         <ServiceCard
           img={$electricimg}
           name={'Electrical System'}
-          price={'$20.00'}
+          price={'Price : $20.00'}
         />
         <ServiceCard
           img={$maontanance}
           name={'Engine Diagnostics'}
-          price={'$20.00'}
+          price={'Price : $20.00'}
         />
         <ServiceCard img={$autoCar} name={'Auto Car Repiar'} price={'$20.00'} />
         <ServiceCard
           img={$Elictrical}
           name={'Electrical System'}
-          price={'$20.00'}
+          price={'Price : $20.00'}
         />
         <ServiceCard
           img={$engineOil}
           name={'Engine Diagnostice'}
-          price={'$20.00'}
+          price={'Price : $20.00'}
         />
         <ServiceCard
           img={$autoRepiar}
           name={'Auto Car Repiar'}
-          price={'$20.00'}
+          price={'Price : $20.00'}
         />
-
       </div>
       <div className="py-8">
         <button className="btn btn-outline hover:bg-orange-600 text-orange-600">

@@ -7,8 +7,8 @@ function ServiceCard({img, name, price}) {
     <div>
       <div className="">
           <img src={img} alt="" />
-        <p>{name}</p>
-        <p>{price}</p>
+        <p className='text-2xl font-bold text-left py-2'>{name}</p>
+        <p className='text-xl font-bold text-left pb-2 text-red-500'>{price}</p>
       </div>
     </div>
   )
