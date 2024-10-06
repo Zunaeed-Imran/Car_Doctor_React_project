@@ -7,8 +7,8 @@ function TeamCard({img, name, title, socialLogo}) {
       <figure>
         <img src={img} alt="" />
       </figure>
-      <p>{name}</p>
-      <p>{title}</p>
+      <p className='text-2xl font-bold'>{name}</p>
+      <p className='text-xl'>{title}</p>
       <p>{socialLogo}</p>
     </div>
   )
