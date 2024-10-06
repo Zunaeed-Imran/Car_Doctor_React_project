@@ -1,4 +1,5 @@
 import logo from '../assets/logo/Logo.png';
+import FooterLogo from '../components/card/smallComponent/FooterLogo';
 
 function Footer() {
   return (
@@ -11,6 +12,7 @@ function Footer() {
             technologies engineer, a life coach <br />
             trainer who is also a serial .
           </p>
+          <FooterLogo/>
         </aside>
         <nav>
           <h6 className="footer-title">About</h6>
