@@ -9,29 +9,30 @@ import Navbar from './components/Navbar'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
 
-const router = createBrowserRouter([{
-  path: "/",
-  element: <MainOutlet />,
-  children: [
-    {
-      path: "/",
-      element: <App />,
-      errorElement: <ErrorNotFound />
-    },
-    {
-      path: "/navbar",
-      element: <Navbar/>
-    },
-    {
-      path: "/login",
-      element: <Login/>
-    },
-    {
-      path: "/signup",
-      element: <SignUp/>
-    },
-  ],
-},
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <MainOutlet />,
+    errorElement: <ErrorNotFound />,
+    children: [
+      {
+        path: '/',
+        element: <App />,
+      },
+      {
+        path: '/navbar',
+        element: <Navbar />,
+      },
+      {
+        path: '/login',
+        element: <Login />,
+      },
+      {
+        path: '/signup',
+        element: <SignUp />,
+      },
+    ],
+  },
 ]);
 
 
