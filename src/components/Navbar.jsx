@@ -30,25 +30,25 @@ function Navbar() {
               Home
             </Link>
             <Link
-              to="/DoctorP"
+              to="/test"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100	 "
             >
               About
             </Link>
             <Link
-              to="/appointment"
+              to="/test"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Services
             </Link>
             <Link
-              to="/patientDash"
+              to="/test"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Blog
             </Link>
             <Link
-              to="/patientDash"
+              to="/test"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Contact
@@ -62,13 +62,13 @@ function Navbar() {
           </div>
           <div className="flex pl-20">
             <Link
-              to="/patientDash"
+              to="/hi"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2"
             >
               <CiShoppingBasket size={'1.5rem'} />
             </Link>
             <Link
-              to="/patientDash"
+              to="/hi"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2"
             >
               <CiSearch size={'1.5rem'} />
