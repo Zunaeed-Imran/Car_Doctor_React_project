@@ -5,12 +5,12 @@ import man2 from "../assets/avater/man1.png";
 
 function Testimonial() {
   return (
-    <div>
-      <div>
+    <div className="p-10">
+      <div className="flex flex-col gap-3 pb-7">
         <p className="text-xl font-bold text-orange-600 py-3">Testimonial</p>
-        <h1 className="text-3xl font-bold">What Customer Says</h1>
+        <h1 className="text-5xl font-bold">What Customer Says</h1>
         <p className="py-2">
-          the majority have suffered alteration in some form, by injected
+          The majority have suffered alteration in some form, by injected
           humour, or randomised <br /> words which donSt look even slightly
           believable.
         </p>
