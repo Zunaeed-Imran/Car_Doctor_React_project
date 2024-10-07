@@ -2,14 +2,20 @@ import PropTypes from "prop-types";
 
 function ReviewCard({ img, name, logo, title, comment, star }) {
   return (
-    <div>
-      <div className="">
-        <img src={img} alt="" />
+    <div className="flex flex-col gap-2 items-start py-2 pl-10">
+      <div className="flex flex-row gap-10 justify-between w-full">
+        <div>
+        <img src={img} alt="" className="" />
+        </div>
+        <div>
+        <h2 className="text-2xl font-bold ">{name}</h2>
+        <h2 className="text-xl font-bold ">{title}</h2>
+        </div>
+        <div className="justify-end items-end">
+        <img src={logo} alt="quto" className="" />
+        </div>
       </div>
-      <h2>{name}</h2>
-      <img src={logo} alt="quto" />
-      <h2>{title}</h2>
-      <p>{comment}</p>
+      {comment}
       {star}
     </div>
   );

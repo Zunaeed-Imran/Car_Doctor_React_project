@@ -16,22 +16,26 @@ function Testimonial() {
           believable.
         </p>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 box-content">
         <ReviewCard
           img={man1}
           name={'Awlad Hossain'}
           logo={quto}
           title={'Businessman'}
-          comment={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'}
-          star={<RatingProduct/>}
+          comment={
+            'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'
+          }
+          star={<RatingProduct />}
         />
         <ReviewCard
           img={man2}
           name={'Awlad Hossain'}
           logo={quto}
           title={'Businessman'}
-          comment={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'}
-          star={<RatingProduct/>}
+          comment={
+            'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'
+          }
+          star={<RatingProduct />}
         />
       </div>
     </div>
