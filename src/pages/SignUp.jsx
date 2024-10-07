@@ -7,8 +7,13 @@ function SignUp() {
       <div className="min-h-screen">
         <form action="" className="flex flex-col gap-2">
           <label htmlFor="" className="text-2xl font-semibold m-5">
-            User Login
+            Sign Up
           </label>
+          <input
+            type="text"
+            placeholder="Name"
+            className="input input-bordered w-full max-w-xs"
+          />
           <input
             type="email"
             placeholder="Email"
@@ -16,18 +21,18 @@ function SignUp() {
           />
           <input
             type="password"
-            placeholder="Password"
+            placeholder="Confirm Password"
             className="input input-bordered w-full max-w-xs"
           />
           <div>
-            <button className="btn btn-primary">Login</button>
+            <button className="btn btn-primary">Sign Up</button>
           </div>
         </form>
         <div className="py-5">
           <p>
-            Dont have account?
-            <Link className="link link-primary" to="/signin">
-              Sign-in
+            Already have account?
+            <Link className="link link-primary" to="/login">
+              Login
             </Link>
           </p>
         </div>

@@ -7,6 +7,7 @@ import MainOutlet from './routes/MainOutlet'
 import ErrorNotFound from './pages/ErrorNotFound'
 import Navbar from './components/Navbar'
 import Login from './pages/Login'
+import SignUp from './pages/SignUp'
 
 const router = createBrowserRouter([{
   path: "/",
@@ -24,6 +25,10 @@ const router = createBrowserRouter([{
     {
       path: "/login",
       element: <Login/>
+    },
+    {
+      path: "/signup",
+      element: <SignUp/>
     },
   ],
 },

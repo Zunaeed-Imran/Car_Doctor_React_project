@@ -26,8 +26,8 @@ function Login() {
         <div className="py-5">
           <p>
             Dont have account?
-            <Link className="link link-primary" to="/signin">
-              Sign-in
+            <Link className="link link-primary" to="/signup">
+              Sign-Up
             </Link>
           </p>
         </div>
