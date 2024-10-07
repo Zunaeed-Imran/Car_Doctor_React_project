@@ -73,7 +73,9 @@ function Navbar() {
             >
               <CiSearch size={'1.5rem'} />
             </Link>
-            <AppointmentButton />
+            <Link to="/checkout">
+              <AppointmentButton />
+            </Link>
           </div>
         </div>
       </div>

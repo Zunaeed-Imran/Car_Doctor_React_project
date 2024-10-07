@@ -8,6 +8,7 @@ import ErrorNotFound from './pages/ErrorNotFound'
 import Navbar from './components/Navbar'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
+import ChecOut from './pages/ChecOut'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: '/signup',
         element: <SignUp />,
+      },
+      {
+        path: '/checkout',
+        element: <ChecOut />,
       },
     ],
   },
