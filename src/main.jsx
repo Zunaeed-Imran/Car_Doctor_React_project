@@ -6,6 +6,7 @@ import App from './App'
 import MainOutlet from './routes/MainOutlet'
 import ErrorNotFound from './pages/ErrorNotFound'
 import Navbar from './components/Navbar'
+import Login from './pages/Login'
 
 const router = createBrowserRouter([{
   path: "/",
@@ -19,7 +20,11 @@ const router = createBrowserRouter([{
     {
       path: "/navbar",
       element: <Navbar/>
-    }
+    },
+    {
+      path: "/login",
+      element: <Login/>
+    },
   ],
 },
 ]);
