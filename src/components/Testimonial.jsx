@@ -2,6 +2,7 @@ import ReviewCard from "./card/ReviewCard";
 import RatingProduct from "./card/smallComponent/RatingProduct";
 import man1 from "../assets/avater/man2.png";
 import man2 from "../assets/avater/man1.png";
+import quto from "../assets/logo/quote 1.png";
 
 function Testimonial() {
   return (
@@ -15,10 +16,11 @@ function Testimonial() {
           believable.
         </p>
       </div>
-      <div>
+      <div className="grid grid-cols-2">
         <ReviewCard
           img={man1}
           name={'Awlad Hossain'}
+          logo={quto}
           title={'Businessman'}
           comment={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'}
           star={<RatingProduct/>}
@@ -26,6 +28,7 @@ function Testimonial() {
         <ReviewCard
           img={man2}
           name={'Awlad Hossain'}
+          logo={quto}
           title={'Businessman'}
           comment={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable'}
           star={<RatingProduct/>}
