@@ -7,7 +7,7 @@ function ReviewCard({ img, name, logo, title, comment, star }) {
         <div className="pl-5">
         <img src={img} alt="" className="" />
         </div>
-        <div className="pr-28">
+        <div className="pr-28 text-left">
         <h2 className="text-2xl font-bold ">{name}</h2>
         <h2 className="text-xl font-bold">{title}</h2>
         </div>
