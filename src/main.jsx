@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
 import ChecOut from './pages/ChecOut'
+import AddNewService from './pages/AddNewService'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/checkout',
         element: <ChecOut />,
+      },
+      {
+        path: '/addnewservice',
+        element: <AddNewService />,
       },
     ],
   },
