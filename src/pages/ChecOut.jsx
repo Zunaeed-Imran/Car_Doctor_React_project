@@ -15,7 +15,7 @@ function ChecOut() {
         <h1 className="text-5xl font-bold">Check Out</h1>
       </div> */}
       <div
-        className="pt-20 bg-cover bg-center h-[300px] flex items-center justify-center"
+        className="pt-20 bg-cover bg-center h-[300px] flex items-center justify-center rounded-md"
         style={{ backgroundImage: `url(${checkOut})` }}
       >
         <h1 className="text-5xl font-bold text-white">Check Out</h1>
