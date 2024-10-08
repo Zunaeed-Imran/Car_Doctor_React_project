@@ -25,7 +25,7 @@ function SignUp() {
             className="input input-bordered w-full max-w-xs"
           />
           <div>
-            <button className="btn bg-orange-600 text-white">Sign Up</button>
+            <Link to="ok2" className="btn bg-orange-600 text-white">Sign Up</Link>
           </div>
         </form>
         <div className="py-5">

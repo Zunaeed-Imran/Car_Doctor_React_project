@@ -20,7 +20,7 @@ function Login() {
             className="input input-bordered w-full max-w-xs"
           />
           <div>
-            <button className="btn bg-orange-600 text-white">Login</button>
+            <Link to="/ok" className="btn bg-orange-600 text-white">Login</Link>
           </div>
         </form>
         <div className="py-5">
