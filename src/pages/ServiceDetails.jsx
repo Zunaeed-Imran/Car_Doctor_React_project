@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Footer from "../layout/Footer"
-import serviceDetails from '../assets/pageImage/Rectangle 1539.png';
+import serviceDetails from '../assets/pageImage/RectangleShadow.png';
 import UniqueCarEngineService from "../components/card/smallComponent/UniqueCarEngineService";
 
 function ServiceDetails() {
