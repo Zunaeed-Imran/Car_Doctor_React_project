@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import checkOut from "../assets/pageImage/Rectangle 1539.png";
 import Footer from "../layout/Footer";
+import { Link } from "react-router-dom";
 
 
 function ChecOut() {
@@ -43,12 +44,17 @@ function ChecOut() {
               className="input input-bordered w-full max-w-xs"
             />
           </div>
-          <div>
-            <input
+          <div className="p-5 justify-center items-center">
+            <textarea
               type="textarea"
               placeholder="Your Message"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="textarea textarea-bordered w-9/12 h-48 mr-44"
             />
+          </div>
+          <div className="pr-32">
+            <Link className="btn w-52 bg-orange-600 text-white" to="/test4">
+              Order Confirm
+            </Link>
           </div>
         </form>
       </div>
