@@ -20,7 +20,6 @@ function ServiceDetails() {
       <div className="grid grid-cols-3 ">
         <div className="col-span-2">
           <UniqueCarEngineService/>
-          
         </div>
       </div>
       <div className="pt-20">
