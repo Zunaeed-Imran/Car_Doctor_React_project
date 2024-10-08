@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar"
 import Footer from "../layout/Footer"
 import serviceDetails from '../assets/pageImage/Rectangle 1539.png';
-import uniqueService from '../assets/cardImage/Rectangle 1540.png';
+import UniqueCarEngineService from "../components/card/smallComponent/UniqueCarEngineService";
 
 function ServiceDetails() {
   return (
@@ -18,11 +18,9 @@ function ServiceDetails() {
         </h1>
       </div>
       <div className="grid grid-cols-3 ">
-        <div className="grid-cols-2">
-          <img
-            src={uniqueService}
-            alt="uniqueService"
-            className="py-5" />
+        <div className="col-span-2">
+          <UniqueCarEngineService/>
+          
         </div>
       </div>
       <div className="pt-20">
