@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Footer from "../layout/Footer"
-import checkOut from '../assets/pageImage/Rectangle 1539.png';
+import checkOut from "../assets/pageImage/RectangleShadow.png";
 import { Link } from "react-router-dom";
 
 
