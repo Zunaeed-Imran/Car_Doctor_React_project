@@ -25,13 +25,13 @@ function SignUp() {
             className="input input-bordered w-full max-w-xs"
           />
           <div>
-            <button className="btn bg-orange-600">Sign Up</button>
+            <button className="btn bg-orange-600 text-white">Sign Up</button>
           </div>
         </form>
         <div className="py-5">
           <p>
             Already have account?
-            <Link className="link bg-orange-600" to="/login">
+            <Link className="link bg-orange-600 text-white" to="/login">
               Login
             </Link>
           </p>
