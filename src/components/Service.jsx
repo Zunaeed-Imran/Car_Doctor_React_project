@@ -6,6 +6,7 @@ import $engineOil from "../assets/cardImage/engineOil.png";
 import $autoRepiar from "../assets/cardImage/autoCarRepiar.png";
 import ServiceContact from "./card/ServiceContact";
 import ServiceCard from "./card/ServiceCard";
+import { Link } from "react-router-dom";
 
 
 function Service() {
@@ -49,9 +50,12 @@ function Service() {
         />
       </div>
       <div className="py-8 pb-20">
-        <button className="btn btn-outline hover:bg-orange-600 text-orange-600">
+        <Link
+          to="/servicedetails"
+          className="btn btn-outline hover:bg-orange-600 text-orange-600"
+        >
           More Service
-        </button>
+        </Link>
       </div>
       <div>
         <ServiceContact />

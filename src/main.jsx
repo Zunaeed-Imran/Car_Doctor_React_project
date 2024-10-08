@@ -10,6 +10,7 @@ import Login from './pages/Login'
 import SignUp from './pages/SignUp'
 import ChecOut from './pages/ChecOut'
 import AddNewService from './pages/AddNewService'
+import ServiceDetails from './pages/ServiceDetails'
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: '/addnewservice',
         element: <AddNewService />,
+      },
+      {
+        path: '/servicedetails',
+        element: <ServiceDetails/>
       },
     ],
   },
