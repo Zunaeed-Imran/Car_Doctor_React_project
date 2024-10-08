@@ -1,5 +1,5 @@
 // import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
-import $heroImg from "../assets/pageImage/hero.jpeg";
+import $heroImg from "../assets/pageImage/heroShadow.png";
 
 
 function Hero() {
@@ -7,7 +7,7 @@ function Hero() {
     <div className="pt-1">
       <div className="hero">
         <img src={$heroImg} alt="hero-image"/>
-        <div className="hero-overlay rounded-md"></div>
+        <div className="rounded-md"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">
