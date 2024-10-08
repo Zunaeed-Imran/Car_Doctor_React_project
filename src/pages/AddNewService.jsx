@@ -9,8 +9,8 @@ function AddNewService() {
       <div className="pb-20">
         <Navbar />
       </div>
-      <div className="pt-20 bg-cover bg-center h-[300px] flex items-center justify-center rounded-md" style={{ backgroundImage: `url(${checkOut})` }}>
-        <h1 className="text-3xl font-bold text-white">Add New Service</h1>
+      <div className="pt-20 bg-cover bg-center h-[300px] flex items-start justify-start rounded-md" style={{ backgroundImage: `url(${checkOut})` }}>
+        <h1 className="text-3xl font-bold text-white pl-10 pt-16">Add New Service</h1>
       </div>
       <div className="pt-20">
         <Footer />

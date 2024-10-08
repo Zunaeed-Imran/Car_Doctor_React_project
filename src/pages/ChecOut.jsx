@@ -15,10 +15,10 @@ function ChecOut() {
         <h1 className="text-5xl font-bold">Check Out</h1>
       </div> */}
       <div
-        className="pt-20 bg-cover bg-center h-[300px] flex items-center justify-center rounded-md"
+        className="pt-36 bg-cover bg-center h-[300px] flex items-start justify-start rounded-md"
         style={{ backgroundImage: `url(${checkOut})` }}
       >
-        <h1 className="text-5xl font-bold text-white">Check Out</h1>
+        <h1 className="text-5xl font-bold text-white pl-10">Check Out</h1>
       </div>
       <div className="py-20">
         <form action="" className="form-control">
