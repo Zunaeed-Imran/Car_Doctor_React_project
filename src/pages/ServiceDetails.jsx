@@ -6,6 +6,7 @@ import SimpleStpe from "../components/card/smallComponent/SimpleStpe";
 import Services from "../components/card/smallComponent/Services";
 import DownloadService from "../components/card/smallComponent/DownloadService";
 import DiscountService from "../components/card/smallComponent/DiscountService";
+import { Link } from "react-router-dom";
 
 function ServiceDetails() {
   return (
@@ -24,12 +25,16 @@ function ServiceDetails() {
       <div className="grid grid-cols-3 ">
         <div className="col-span-2">
           <UniqueCarEngineService />
-          <SimpleStpe/>
+          <SimpleStpe />
         </div>
         <div className="col-span-1 items-center">
           <Services />
           <DownloadService />
-          <DiscountService/>
+          <DiscountService />
+          <h1 className="text-5xl font-bold p-3 py-10">Price $250.00</h1>
+          <Link to="/error" className="btn bg-orange-600 text-white">
+            Proceed Checkout
+          </Link>
         </div>
       </div>
       <div className="pt-20">
