@@ -1,4 +1,4 @@
-import { Bs1CircleFill, Bs2SquareFill, Bs3CircleFill } from "react-icons/bs";
+import { Bs1CircleFill, Bs2CircleFill, Bs3CircleFill } from "react-icons/bs";
 import SimpleStepCard from "./SimpleStepCard";
 
 
@@ -22,7 +22,7 @@ function SimpleStpe() {
           desc={'It uses a dictionary of over 200 .'}
         />
         <SimpleStepCard
-          logo={<Bs2SquareFill />}
+          logo={<Bs2CircleFill />}
           heading={'Step Two'}
           desc={'It uses a dictionary of over 200 .'}
         />
