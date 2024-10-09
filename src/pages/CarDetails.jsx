@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Footer from "../layout/Footer"
 import heroimg from "../assets/pageImage/Rectangle1548Shadow2.png";
+import CartCard from "../components/card/smallComponent/CartCard";
 
 function CarDetails() {
   return (
@@ -15,6 +16,9 @@ function CarDetails() {
         <h1 className="text-3xl font-bold text-white pl-10 pt-16">
           Cart Details
         </h1>
+      </div>
+      <div>
+        <CartCard/>
       </div>
       <div className="pt-20">
         <Footer />
