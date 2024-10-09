@@ -26,7 +26,7 @@ function AboutUs() {
           humour, or randomised words which dont look even slightly believable.
         </p>
         <Link
-          to='/cardetails'
+          to='/lalala'
           className="btn bg-orange-600 hover:bg-orange-700 text-white w-40"
         >
           Get More Info
