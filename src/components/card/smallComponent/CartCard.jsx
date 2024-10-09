@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function CartCard({logo, img, name, color, size, price, date, logo2}) {
   return (
-    <div className="">
+    <div className="flex flex-row justify-between">
       <p>{logo}</p>
       <img src={img} alt="product" />
       <div>

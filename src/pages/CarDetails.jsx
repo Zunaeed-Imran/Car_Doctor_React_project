@@ -3,8 +3,10 @@ import Footer from "../layout/Footer"
 import heroimg from "../assets/pageImage/Rectangle1548Shadow2.png";
 import CartCard from "../components/card/smallComponent/CartCard";
 import { GiSplitCross } from "react-icons/gi";
-import engine from '../assets/cardImage/Rectangle 65.png';
 import PendingButton from "../components/card/button/PendingButton";
+import engine from '../assets/cardImage/Rectangle 65.png';
+import autochack from '../assets/cardImage/Rectangle 65 (1).png';
+import manualchack from '../assets/cardImage/Rectangle 65 (2).png';
 
 function CarDetails() {
   return (
@@ -20,10 +22,30 @@ function CarDetails() {
           Cart Details
         </h1>
       </div>
-      <div>
+      <div className="flex flex-col">
         <CartCard
           logo={<GiSplitCross />}
           img={engine}
+          name={'Martha Knit Top'}
+          color={'Color : Green'}
+          size={'Size: S'}
+          price={'$25.00'}
+          date={'22-10-2022'}
+          logo2={<PendingButton/>}
+        />
+        <CartCard
+          logo={<GiSplitCross />}
+          img={autochack}
+          name={'Martha Knit Top'}
+          color={'Color : Green'}
+          size={'Size: S'}
+          price={'$25.00'}
+          date={'22-10-2022'}
+          logo2={<PendingButton/>}
+        />
+        <CartCard
+          logo={<GiSplitCross />}
+          img={manualchack}
           name={'Martha Knit Top'}
           color={'Color : Green'}
           size={'Size: S'}
