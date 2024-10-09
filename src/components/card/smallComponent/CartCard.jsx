@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 function CartCard({logo, img, name, color, size, price, date, logo2}) {
   return (
     <div className="flex flex-row justify-between">
-      <p>{logo}</p>
+      <p className='text-2xl'>{logo}</p>
       <img src={img} alt="product" />
       <div>
-        <p>{name}</p>
+        <p className='font-bold text-xl'>{name}</p>
         <p>{color}</p>
         <p>{size}</p>
       </div>
-      <p>{price}</p>
+      <p className='font-bold'>{price}</p>
       <p>{date}</p>
       <p>{logo2}</p>
     </div>
