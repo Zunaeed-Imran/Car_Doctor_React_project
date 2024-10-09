@@ -15,7 +15,7 @@ function CarDetails() {
         <Navbar />
       </div>
       <div
-        className="pt-20 bg-cover bg-center h-[300px] flex items-start justify-start rounded-md"
+        className="pt-20 bg-cover bg-center h-[300px] flex items-start justify-start rounded-md mb-28"
         style={{ backgroundImage: `url(${heroimg})` }}
       >
         <h1 className="text-3xl font-bold text-white pl-10 pt-16">

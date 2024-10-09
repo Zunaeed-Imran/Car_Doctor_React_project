@@ -7,8 +7,8 @@ function CartCard({logo, img, name, color, size, price, date, logo2}) {
       <img src={img} alt="product" />
       <div>
         <p className='font-bold text-xl'>{name}</p>
-        <p>{color}</p>
-        <p>{size}</p>
+        <p className='text-left'>{color}</p>
+        <p className='text-left'>{size}</p>
       </div>
       <p className='font-bold'>{price}</p>
       <p>{date}</p>
