@@ -19,17 +19,17 @@ function SimpleStpe() {
         <SimpleStepCard
           logo={<Bs1CircleFill />}
           heading={'Step One'}
-          desc={'It uses a dictionary of over 200 .'}
+          desc={"It uses a dictionary \n of over 200 ."}
         />
         <SimpleStepCard
           logo={<Bs2CircleFill />}
           heading={'Step Two'}
-          desc={'It uses a dictionary of over 200 .'}
+          desc={'It uses a dictionary \n of over 200 .'}
         />
         <SimpleStepCard
           logo={<Bs3CircleFill />}
           heading={'Step Three'}
-          desc={'It uses a dictionary of over 200 .'}
+          desc={'It uses a dictionary \n of over 200 .'}
         />
       </div>
     </div>
