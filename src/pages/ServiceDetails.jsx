@@ -4,6 +4,7 @@ import serviceDetails from '../assets/pageImage/RectangleShadow.png';
 import UniqueCarEngineService from "../components/card/smallComponent/UniqueCarEngineService";
 import SimpleStpe from "../components/card/smallComponent/SimpleStpe";
 import Services from "../components/card/smallComponent/Services";
+import DownloadService from "../components/card/smallComponent/DownloadService";
 
 function ServiceDetails() {
   return (
@@ -25,7 +26,8 @@ function ServiceDetails() {
           <SimpleStpe/>
         </div>
         <div className="col-span-1">
-          <Services/>
+          <Services />
+          <DownloadService/>
         </div>
       </div>
       <div className="pt-20">
