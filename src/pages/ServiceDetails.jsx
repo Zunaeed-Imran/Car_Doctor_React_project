@@ -5,6 +5,7 @@ import UniqueCarEngineService from "../components/card/smallComponent/UniqueCarE
 import SimpleStpe from "../components/card/smallComponent/SimpleStpe";
 import Services from "../components/card/smallComponent/Services";
 import DownloadService from "../components/card/smallComponent/DownloadService";
+import DiscountService from "../components/card/smallComponent/DiscountService";
 
 function ServiceDetails() {
   return (
@@ -25,9 +26,10 @@ function ServiceDetails() {
           <UniqueCarEngineService />
           <SimpleStpe/>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 items-center">
           <Services />
-          <DownloadService/>
+          <DownloadService />
+          <DiscountService/>
         </div>
       </div>
       <div className="pt-20">
