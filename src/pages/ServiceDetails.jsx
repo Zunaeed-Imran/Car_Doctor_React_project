@@ -3,6 +3,7 @@ import Footer from "../layout/Footer"
 import serviceDetails from '../assets/pageImage/RectangleShadow.png';
 import UniqueCarEngineService from "../components/card/smallComponent/UniqueCarEngineService";
 import SimpleStpe from "../components/card/smallComponent/SimpleStpe";
+import Services from "../components/card/smallComponent/Services";
 
 function ServiceDetails() {
   return (
@@ -21,9 +22,10 @@ function ServiceDetails() {
       <div className="grid grid-cols-3 ">
         <div className="col-span-2">
           <UniqueCarEngineService />
-        </div>
-        <div className="col-span-2">
           <SimpleStpe/>
+        </div>
+        <div className="col-span-1">
+          <Services/>
         </div>
       </div>
       <div className="pt-20">
