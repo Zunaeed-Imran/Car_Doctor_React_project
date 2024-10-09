@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar"
 import Footer from "../layout/Footer"
 import heroimg from '../assets/pageImage/Rectangle1548Shadow.png';
+import ManageOrderCard from "../components/card/smallComponent/ManageOrderCard";
+import { FaXmark } from "react-icons/fa6";
 
 
 function ManageOrder() {
@@ -16,6 +18,18 @@ function ManageOrder() {
         <h1 className="text-3xl font-bold text-white pl-10 pt-16">
           Manage All Orders
         </h1>
+      </div>
+      <div>
+        <ManageOrderCard
+          logo={<FaXmark />}
+          img={""}
+          name={"Martha Knit Top"}
+          color={"Color : Green"}
+          size={" Size: S"}
+          mail={"info@gmail.com"}
+          date={"22-10-2022"}
+          button={""}
+        />
       </div>
       <div>
         <Footer />
