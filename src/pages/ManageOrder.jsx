@@ -3,6 +3,7 @@ import Footer from "../layout/Footer"
 import heroimg from '../assets/pageImage/Rectangle1548Shadow.png';
 import ManageOrderCard from "../components/card/smallComponent/ManageOrderCard";
 import { FaXmark } from "react-icons/fa6";
+import ApprovedButton from "../components/card/button/ApprovedButton";
 
 
 function ManageOrder() {
@@ -28,7 +29,7 @@ function ManageOrder() {
           size={" Size: S"}
           mail={"info@gmail.com"}
           date={"22-10-2022"}
-          button={""}
+          button={<ApprovedButton/>}
         />
       </div>
       <div>
