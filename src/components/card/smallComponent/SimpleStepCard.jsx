@@ -8,7 +8,7 @@ function SimpleStepCard({logo, heading, desc}) {
           {logo}
         </h1>
         <h1 className="text-2xl font-bold">{heading}</h1>
-        <p className="leading-10 whitespace-pre-line text-center">
+        <p className="leading-relaxed whitespace-pre-line text-center">
           {desc}
         </p>
       </div>
