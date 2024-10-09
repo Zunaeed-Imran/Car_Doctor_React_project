@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function SimpleStepCard({logo, heading, desc}) {
   return (
     <div>
-      <div className="flex flex-col gap-4 justify-center items-center p-6">
+      <div className="flex flex-col gap-4 justify-center items-center p-6 bg-slate-100 m-2 rounded-md">
         <h1 className="text-5xl text-orange-600 text-center items-center">
           {logo}
         </h1>
