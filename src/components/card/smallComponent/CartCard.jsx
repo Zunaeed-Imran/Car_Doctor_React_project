@@ -5,9 +5,11 @@ function CartCard({logo, img, name, color, size, price, date, logo2}) {
     <div className="">
       <p>{logo}</p>
       <img src={img} alt="product" />
-      <p>{name}</p>
-      <p>{color}</p>
-      <p>{size}</p>
+      <div>
+        <p>{name}</p>
+        <p>{color}</p>
+        <p>{size}</p>
+      </div>
       <p>{price}</p>
       <p>{date}</p>
       <p>{logo2}</p>
