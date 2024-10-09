@@ -22,7 +22,7 @@ function CarDetails() {
           Cart Details
         </h1>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-5 justify-center">
         <CartCard
           logo={<FaXmark />}
           img={engine}

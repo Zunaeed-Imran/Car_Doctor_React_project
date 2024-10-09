@@ -2,19 +2,19 @@ import PropTypes from 'prop-types';
 
 function CartCard({logo, img, name, color, size, price, date, logo2}) {
   return (
-    <div className="flex flex-row justify-between">
-      <p className='text-2xl'>{logo}</p>
+    <div className="flex flex-row justify-between px-20">
+      <p className="text-2xl text-center">{logo}</p>
       <img src={img} alt="product" />
-      <div>
-        <p className='font-bold text-xl'>{name}</p>
-        <p className='text-left'>{color}</p>
-        <p className='text-left'>{size}</p>
+      <div className='flex flex-col gap-2 pt-3'>
+        <p className="font-bold text-xl">{name}</p>
+        <p className="text-left">{color}</p>
+        <p className="text-left">{size}</p>
       </div>
-      <p className='font-bold'>{price}</p>
+      <p className="font-bold">{price}</p>
       <p>{date}</p>
       <p>{logo2}</p>
     </div>
-  )
+  );
 }
 
 export default CartCard
