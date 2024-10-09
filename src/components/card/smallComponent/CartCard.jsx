@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function CartCard({logo, img, name, color, size, price, date, logo2}) {
   return (
     <div className="flex flex-row justify-between px-20 items-center">
-      <p className="text-2xl">{logo}</p>
+      <p className="text-2xl text-white bg-black rounded-full p-3">{logo}</p>
       <img src={img} alt="product" />
       <div className="flex flex-col gap-2 pt-3">
         <p className="font-bold text-xl">{name}</p>
