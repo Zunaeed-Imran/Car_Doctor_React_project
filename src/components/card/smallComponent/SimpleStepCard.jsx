@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function SimpleStepCard({logo, heading, desc}) {
   return (
     <div>
-      <div>
+      <div className=''>
         <h1>{logo}</h1>
         <h1>{heading}</h1>
         <p>{desc}</p>

@@ -1,3 +1,5 @@
+import { Bs1CircleFill } from "react-icons/bs";
+import SimpleStepCard from "./SimpleStepCard";
 
 
 function SimpleStpe() {
@@ -12,6 +14,23 @@ function SimpleStpe() {
           If you are going to use a passage of Lorem Ipsum, you need to be sure
           there isnt anything embarrassing hidden in the middle of text
         </p>
+      </div>
+      <div>
+        <SimpleStepCard
+          logo={<Bs1CircleFill />}
+          heading={'Step One'}
+          desc={'It uses a dictionary of over 200 .'}
+        />
+        <SimpleStepCard
+          logo={<Bs1CircleFill />}
+          heading={'Step One'}
+          desc={'It uses a dictionary of over 200 .'}
+        />
+        <SimpleStepCard
+          logo={<Bs1CircleFill />}
+          heading={'Step One'}
+          desc={'It uses a dictionary of over 200 .'}
+        />
       </div>
     </div>
   );
