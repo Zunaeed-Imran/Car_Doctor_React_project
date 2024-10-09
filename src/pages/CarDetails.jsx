@@ -1,8 +1,15 @@
+import Navbar from "../components/Navbar"
+import Footer from "../layout/Footer"
 
 function CarDetails() {
   return (
     <div>
-      
+      <div>
+        <Navbar/>
+      </div>
+      <div>
+        <Footer/>
+      </div>
     </div>
   )
 }
