@@ -17,7 +17,7 @@ function DownloadService() {
             <h1 className="text-xl font-bold">Our Brochure</h1>
             <p className="">Download</p>
           </div>
-          <div className="text-white" >
+          <div className="text-white">
             <PiArrowSquareRightFill size={'3.5rem'} color="red" />
           </div>
         </div>
@@ -29,8 +29,11 @@ function DownloadService() {
             <h1 className="text-xl font-bold">Our Brochure</h1>
             <p className="">Download</p>
           </div>
-          <div className="text-white" >
-            <PiArrowSquareRightFill size={'3.5rem'} color="red" />
+          <div className="text-white">
+            <PiArrowSquareRightFill
+              size={'3.5rem'}
+              color="red"
+            />
           </div>
         </div>
       </div>
