@@ -15,7 +15,7 @@ function DownloadService() {
           </div>
           <div>
             <h1 className="text-xl font-bold">Our Brochure</h1>
-            <p className="">Download</p>
+            <p className="text-left">Download</p>
           </div>
           <div className="text-white">
             <PiArrowSquareRightFill size={'3.5rem'} color="red" />
@@ -25,9 +25,9 @@ function DownloadService() {
           <div>
             <IoDocumentTextOutline size={'2.5rem'} />
           </div>
-          <div>
+          <div className="">
             <h1 className="text-xl font-bold">Our Brochure</h1>
-            <p className="">Download</p>
+            <p className="text-left">Download</p>
           </div>
           <div className="text-white">
             <PiArrowSquareRightFill
