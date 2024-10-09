@@ -12,6 +12,7 @@ import ChecOut from './pages/ChecOut'
 import AddNewService from './pages/AddNewService'
 import ServiceDetails from './pages/ServiceDetails'
 import CarDetails from './pages/CarDetails'
+import ManageOrder from './pages/ManageOrder'
 
 const router = createBrowserRouter([
   {
@@ -45,12 +46,16 @@ const router = createBrowserRouter([
       },
       {
         path: '/servicedetails',
-        element: <ServiceDetails/>
+        element: <ServiceDetails/>,
       },
       {
         path: '/cardetails',
-        element: <CarDetails/>
-      }
+        element: <CarDetails/>,
+      },
+      {
+        path: '/manageorder',
+        element: <ManageOrder/>,
+      },
     ],
   },
 ]);
