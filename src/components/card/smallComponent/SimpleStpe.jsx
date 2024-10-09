@@ -1,6 +1,6 @@
 import { Bs1CircleFill, Bs2CircleFill, Bs3CircleFill } from "react-icons/bs";
 import SimpleStepCard from "./SimpleStepCard";
-
+import lowerImage from '../../../assets/cardImage/Rectangle 1541.png';
 
 function SimpleStpe() {
   return (
@@ -15,7 +15,7 @@ function SimpleStpe() {
           there isnt anything embarrassing hidden in the middle of text
         </p>
       </div>
-      <div className="flex flex-row justify-center text-center items-center">
+      <div className="flex flex-row gap-4 justify-center text-center items-center">
         <SimpleStepCard
           logo={<Bs1CircleFill />}
           heading={'Step One'}
@@ -31,6 +31,9 @@ function SimpleStpe() {
           heading={'Step Three'}
           desc={'It uses a dictionary \n of over 200 .'}
         />
+      </div>
+      <div className="p-6">
+        <img src={lowerImage} alt="lowerVideoImage" />
       </div>
     </div>
   );
