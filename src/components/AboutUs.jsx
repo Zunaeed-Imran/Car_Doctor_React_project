@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import $aboutimg from "../assets/cardImage/aboutComponent.png";
 
 function AboutUs() {
@@ -24,9 +25,12 @@ function AboutUs() {
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which dont look even slightly believable.
         </p>
-        <button className="btn bg-orange-600 hover:bg-orange-700 text-white w-40">
+        <Link
+          to='/cardetails'
+          className="btn bg-orange-600 hover:bg-orange-700 text-white w-40"
+        >
           Get More Info
-        </button>
+        </Link>
       </div>
     </div>
   );

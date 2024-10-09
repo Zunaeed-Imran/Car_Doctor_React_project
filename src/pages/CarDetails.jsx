@@ -8,6 +8,9 @@ function CarDetails() {
         <Navbar/>
       </div>
       <div>
+        
+      </div>
+      <div>
         <Footer/>
       </div>
     </div>
