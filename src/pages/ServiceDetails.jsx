@@ -21,6 +21,8 @@ function ServiceDetails() {
       <div className="grid grid-cols-3 ">
         <div className="col-span-2">
           <UniqueCarEngineService />
+        </div>
+        <div className="col-span-2">
           <SimpleStpe/>
         </div>
       </div>

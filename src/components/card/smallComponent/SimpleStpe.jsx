@@ -15,7 +15,7 @@ function SimpleStpe() {
           there isnt anything embarrassing hidden in the middle of text
         </p>
       </div>
-      <div>
+      <div className="flex flex-row justify-center text-center items-center">
         <SimpleStepCard
           logo={<Bs1CircleFill />}
           heading={'Step One'}
