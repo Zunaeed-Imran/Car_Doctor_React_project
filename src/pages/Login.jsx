@@ -37,7 +37,7 @@ function Login() {
             <div className="py-5">
               <p>
                 Dont have account?
-                <Link className="link bg-orange-600 text-white" to="/signup">
+                <Link className="link  text-orange-600" to="/signup">
                   Sign-Up
                 </Link>
               </p>
