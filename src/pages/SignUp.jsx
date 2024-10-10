@@ -8,25 +8,32 @@ function SignUp() {
         <div className="">
           <img src={signupimg} alt="Sign Up Image" />
         </div>
-        <div className="pt-20 hero">
-          <div className="min-h-screen">
-            <form action="" className="flex flex-col gap-2">
-              <label htmlFor="" className="text-2xl font-semibold m-5">
-                Sign Up
+        <div className="">
+          <div className="">
+            <form action="" className="flex flex-col items-center">
+              <h1>Sign Up</h1>
+              <label htmlFor="" className="">
+                Name
               </label>
               <input
                 type="text"
-                placeholder="Name"
+                placeholder="Your name"
                 className="input input-bordered w-full max-w-xs"
               />
+              <label htmlFor="" className="">
+                Email
+              </label>
               <input
                 type="email"
-                placeholder="Email"
+                placeholder="Your email"
                 className="input input-bordered w-full max-w-xs"
               />
+              <label htmlFor="" className="">
+                Confirm Password
+              </label>
               <input
                 type="password"
-                placeholder="Confirm Password"
+                placeholder="Your Password"
                 className="input input-bordered w-full max-w-xs"
               />
               <div>
