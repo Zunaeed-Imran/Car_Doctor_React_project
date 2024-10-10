@@ -4,8 +4,8 @@ import loginimg from "../assets/cardImage/Frame (1).png";
 function Login() {
   return (
     <div>
-      <div className="">
-        <div className="">
+      <div className="flex">
+        <div className="pt-32">
           <img src={loginimg} alt="" />
         </div>
         <div className="pt-20 hero">
