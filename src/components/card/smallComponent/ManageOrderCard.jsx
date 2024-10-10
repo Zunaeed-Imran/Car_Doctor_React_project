@@ -4,12 +4,14 @@ import PropTypes from 'prop-types';
 
 function ManageOrderCard({logo, img, name, color, size, mail, date, button}) {
   return (
-    <div>
+    <div className='flex flex-row justify-between px-20 items-center'>
       <p>{logo}</p>
       <img src={img} alt="carEngine" />
-      <p>{name}</p>
-      <p>{color}</p>
-      <p>{size}</p>
+      <div className='text-left'>
+        <p>{name}</p>
+        <p>{color}</p>
+        <p>{size}</p>
+      </div>
       <p>{mail}</p>
       <p>{date}</p>
       <p>{button}</p>
