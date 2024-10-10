@@ -8,7 +8,7 @@ function Login() {
         <div className="pt-32">
           <img src={loginimg} alt="" />
         </div>
-        <div className="pt-20 hero">
+        <div className="pt-20 hero m-20 mx-44 bg-slate-100 rounded-md">
           <div className="min-h-screen">
             <form action="" className="flex flex-col gap-2">
               <h1 className="text-3xl font-bold py-7">Login</h1>
