@@ -10,8 +10,13 @@ function SignUp() {
         </div>
         <div className="">
           <div className="">
-            <form action="" className="flex flex-col justify-center items-start gap-4">
+            <div className=" items-center py-3 pb-5">
               <h1 className="text-3xl font-bold">Sign Up</h1>
+            </div>
+            <form
+              action=""
+              className="flex flex-col justify-center items-start gap-4"
+            >
               <label htmlFor="" className="font-bold items-baseline">
                 Name
               </label>
@@ -36,12 +41,13 @@ function SignUp() {
                 placeholder="Your Password"
                 className="input input-bordered w-full max-w-xs"
               />
-              <div>
+            </form>
+              <div className="items-center p-2 w-full">
                 <Link to="ok2" className="btn bg-orange-600 text-white">
                   Sign Up
                 </Link>
+                
               </div>
-            </form>
             <div className="py-5">
               <p>
                 Already have account?
