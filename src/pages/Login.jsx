@@ -13,19 +13,19 @@ function Login() {
             <form action="" className="flex flex-col gap-2">
               <h1 className="text-3xl font-bold py-7">Login</h1>
               <label htmlFor="" className="font-semibold m-1 text-left">
-                Your email
+                Email
               </label>
               <input
-                type="Your email"
-                placeholder="Email"
+                type="email"
+                placeholder="Your email"
                 className="input input-bordered w-full max-w-xs"
               />
               <label htmlFor="" className="font-semibold m-1 text-left">
-                Your pasword
+                Confirm Password
               </label>
               <input
                 type="password"
-                placeholder="Password"
+                placeholder="Your password"
                 className="input input-bordered w-full max-w-xs"
               />
               <div>
