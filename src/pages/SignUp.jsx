@@ -4,15 +4,15 @@ import signupimg from "../assets/cardImage/Frame (1).png";
 function SignUp() {
   return (
     <div>
-      <div className="">
+      <div className="flex flex-row pt-20 justify-around">
         <div className="">
           <img src={signupimg} alt="Sign Up Image" />
         </div>
         <div className="">
           <div className="">
-            <form action="" className="flex flex-col items-center">
-              <h1>Sign Up</h1>
-              <label htmlFor="" className="">
+            <form action="" className="flex flex-col justify-center items-start gap-4">
+              <h1 className="text-3xl font-bold">Sign Up</h1>
+              <label htmlFor="" className="font-bold items-baseline">
                 Name
               </label>
               <input
@@ -20,7 +20,7 @@ function SignUp() {
                 placeholder="Your name"
                 className="input input-bordered w-full max-w-xs"
               />
-              <label htmlFor="" className="">
+              <label htmlFor="" className="font-bold">
                 Email
               </label>
               <input
@@ -28,7 +28,7 @@ function SignUp() {
                 placeholder="Your email"
                 className="input input-bordered w-full max-w-xs"
               />
-              <label htmlFor="" className="">
+              <label htmlFor="" className="font-bold">
                 Confirm Password
               </label>
               <input
