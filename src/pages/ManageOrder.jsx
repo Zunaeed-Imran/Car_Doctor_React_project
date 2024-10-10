@@ -22,7 +22,7 @@ function ManageOrder() {
           Manage All Orders
         </h1>
       </div>
-      <div>
+      <div className="flex flex-col gap-5">
         <ManageOrderCard
           logo={<FaXmark />}
           img={img1}
@@ -54,7 +54,7 @@ function ManageOrder() {
           button={<ApprovedButton />}
         />
       </div>
-      <div>
+      <div className="pt-28">
         <Footer />
       </div>
     </div>
