@@ -11,14 +11,18 @@ function Login() {
         <div className="pt-20 hero">
           <div className="min-h-screen">
             <form action="" className="flex flex-col gap-2">
-              <label htmlFor="" className="text-2xl font-semibold m-5">
-                User Login
+              <h1 className="text-3xl font-bold py-7">Login</h1>
+              <label htmlFor="" className="font-semibold m-1 text-left">
+                Your email
               </label>
               <input
-                type="email"
+                type="Your email"
                 placeholder="Email"
                 className="input input-bordered w-full max-w-xs"
               />
+              <label htmlFor="" className="font-semibold m-1 text-left">
+                Your pasword
+              </label>
               <input
                 type="password"
                 placeholder="Password"
