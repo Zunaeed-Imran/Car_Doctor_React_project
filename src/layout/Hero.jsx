@@ -4,12 +4,10 @@ import $heroImg from "../assets/pageImage/heroShadow.png";
 
 function Hero() {
   return (
-    <div className="pt-1">
       <div
         className="pt-32 bg-cover bg-center h-[300px] flex items-start justify-start rounded-md mb-28"
         style={{ backgroundImage: `url(${$heroImg})` }}
       >
-          <div className="">
             <h1 className="mb-5 text-5xl font-bold text-white text-left pl-10">
               Affordable <br /> Price For Car <br /> Servicing
             </h1>
@@ -33,8 +31,6 @@ function Hero() {
                 <HiArrowSmRight size="1.5rem" />
               </button>
             </div>
-          </div>
-        </div>
     </div>
   );
 }
