@@ -5,7 +5,7 @@ import $heroImg from "../assets/pageImage/heroShadow.png";
 function Hero() {
   return (
     <div
-      className=" pt-36 pl-20 bg-cover bg-center h-[600px] flex items-start justify-start rounded-md mb-28"
+      className="relative pt-36 pl-20 bg-cover bg-center h-[600px] flex items-start justify-start rounded-md mb-28"
       style={{ backgroundImage: `url(${$heroImg})` }}
     >
       <div>
@@ -27,7 +27,7 @@ function Hero() {
           </button>
         </div>
       </div>
-        <div className="flex gap-3 justify-end p-4">
+        <div className="absolute bottom-4 right-4 flex gap-3">
           <button className="btn btn-circle btn-outline bg-[#FF4500]">
             <HiArrowSmLeft size="1.5rem" />
           </button>
@@ -35,7 +35,6 @@ function Hero() {
             <HiArrowSmRight size="1.5rem" />
           </button>
         </div>
-
     </div>
   );
 }
