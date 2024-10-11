@@ -1,4 +1,4 @@
-// import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
+import { HiArrowSmLeft, HiArrowSmRight } from "react-icons/hi";
 import $heroImg from "../assets/pageImage/heroShadow.png";
 
 
