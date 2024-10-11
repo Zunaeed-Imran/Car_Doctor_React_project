@@ -26,12 +26,12 @@ function Hero() {
               </button>
             </div>
             <div>
-              {/* <button className="btn btn-circle btn-outline bg-[#FF4500]">
+              <button className="btn btn-circle btn-outline bg-[#FF4500]">
                 <HiArrowSmLeft size="1.5rem" />
               </button>
               <button className="btn btn-circle btn-outline bg-[#FF4500]">
                 <HiArrowSmRight size="1.5rem" />
-              </button> */}
+              </button>
             </div>
           </div>
         </div>
