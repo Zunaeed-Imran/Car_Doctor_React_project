@@ -10,14 +10,13 @@ function Hero() {
     >
       <div>
         <div className="leading-relaxed">
-        <h1 className="mb-5 text-5xl font-bold text-white text-left pl-10">
-          Affordable <br /> Price For Car <br /> Servicing
-        </h1>
-        <p className="mb-5 text-left text-white pl-10">
-          There are many variations of passages of available, but <br />
-          the majority
-          have suffered alteration in some form
-        </p>
+          <h1 className="mb-5 text-5xl font-bold text-white text-left pl-10">
+            Affordable <br /> Price For Car <br /> Servicing
+          </h1>
+          <p className="mb-5 text-left text-white pl-10">
+            There are many variations of passages of available, but <br />
+            the majority have suffered alteration in some form
+          </p>
         </div>
         <div className="flex text-left pl-10 gap-3">
           <button className="btn bg-orange-600 hover:bg-orange-500 text-white">
@@ -28,14 +27,15 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div className="flex gap-3">
-        <button className="btn btn-circle btn-outline bg-[#FF4500]">
-          <HiArrowSmLeft size="1.5rem" />
-        </button>
-        <button className="btn btn-circle btn-outline bg-[#FF4500]">
-          <HiArrowSmRight size="1.5rem" />
-        </button>
-      </div>
+        <div className="flex gap-3 justify-end p-4">
+          <button className="btn btn-circle btn-outline bg-[#FF4500]">
+            <HiArrowSmLeft size="1.5rem" />
+          </button>
+          <button className="btn btn-circle btn-outline bg-[#FF4500]">
+            <HiArrowSmRight size="1.5rem" />
+          </button>
+        </div>
+
     </div>
   );
 }
