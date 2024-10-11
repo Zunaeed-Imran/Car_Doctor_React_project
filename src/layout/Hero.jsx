@@ -9,7 +9,7 @@ function Hero() {
       style={{ backgroundImage: `url(${$heroImg})` }}
     >
       <div>
-        <div>
+        <div className="leading-relaxed">
         <h1 className="mb-5 text-5xl font-bold text-white text-left pl-10">
           Affordable <br /> Price For Car <br /> Servicing
         </h1>
@@ -28,7 +28,7 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div className="justify-end items-end text-end">
+      <div className="flex gap-3">
         <button className="btn btn-circle btn-outline bg-[#FF4500]">
           <HiArrowSmLeft size="1.5rem" />
         </button>
