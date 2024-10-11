@@ -19,7 +19,7 @@ function Hero() {
           have suffered alteration in some form
         </p>
         </div>
-        <div className="justify-start">
+        <div className="flex text-left pl-10 gap-3">
           <button className="btn bg-orange-600 hover:bg-orange-500 text-white">
             Discover More
           </button>
@@ -28,7 +28,7 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div>
+      <div className="justify-end items-end text-end">
         <button className="btn btn-circle btn-outline bg-[#FF4500]">
           <HiArrowSmLeft size="1.5rem" />
         </button>
