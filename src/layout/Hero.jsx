@@ -5,15 +5,15 @@ import $heroImg from "../assets/pageImage/heroShadow.png";
 function Hero() {
   return (
     <div className="pt-1">
-      <div className="hero">
-        <img src={$heroImg} alt="hero-image"/>
-        <div className="rounded-md"></div>
-        <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">
-              Affordable Price For Car Servicing
+      <div
+        className="pt-32 bg-cover bg-center h-[300px] flex items-start justify-start rounded-md mb-28"
+        style={{ backgroundImage: `url(${$heroImg})` }}
+      >
+          <div className="">
+            <h1 className="mb-5 text-5xl font-bold text-white text-left pl-10">
+              Affordable <br /> Price For Car <br /> Servicing
             </h1>
-            <p className="mb-5">
+            <p className="mb-5 text-white">
               There are many variations of passages of available, but the
               majority have suffered alteration in some form
             </p>
@@ -35,7 +35,6 @@ function Hero() {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 }
