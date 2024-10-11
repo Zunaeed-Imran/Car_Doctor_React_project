@@ -5,23 +5,28 @@ import $heroImg from "../assets/pageImage/heroShadow.png";
 function Hero() {
   return (
     <div
-      className="bg-cover bg-center h-[300px] flex items-start justify-start rounded-md mb-28"
+      className=" pt-20 bg-cover bg-center h-[600px] flex items-start justify-start rounded-md mb-28"
       style={{ backgroundImage: `url(${$heroImg})` }}
     >
       <div>
+        <div>
         <h1 className="mb-5 text-5xl font-bold text-white text-left pl-10">
           Affordable <br /> Price For Car <br /> Servicing
         </h1>
-        <p className="mb-5 text-white">
-          There are many variations of passages of available, but the majority
+        <p className="mb-5 text-left text-white pl-10">
+          There are many variations of passages of available, but <br />
+          the majority
           have suffered alteration in some form
         </p>
-        <button className="btn bg-orange-600 hover:bg-orange-500 text-white">
-          Discover More
-        </button>
-        <button className="btn btn-outline hover:bg-orange-600 text-white">
-          Latest Project
-        </button>
+        </div>
+        <div className="justify-start">
+          <button className="btn bg-orange-600 hover:bg-orange-500 text-white">
+            Discover More
+          </button>
+          <button className="btn btn-outline hover:bg-orange-600 text-white">
+            Latest Project
+          </button>
+        </div>
       </div>
       <div>
         <button className="btn btn-circle btn-outline bg-[#FF4500]">
