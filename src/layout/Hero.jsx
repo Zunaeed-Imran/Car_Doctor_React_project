@@ -5,7 +5,7 @@ import $heroImg from "../assets/pageImage/heroShadow.png";
 function Hero() {
   return (
     <div
-      className=" pt-20 bg-cover bg-center h-[600px] flex items-start justify-start rounded-md mb-28"
+      className=" pt-36 pl-20 bg-cover bg-center h-[600px] flex items-start justify-start rounded-md mb-28"
       style={{ backgroundImage: `url(${$heroImg})` }}
     >
       <div>
