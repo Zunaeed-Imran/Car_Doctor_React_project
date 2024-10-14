@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function TeamCard({img, name, title, socialLogo}) {
   return (
-    <div className='flex flex-col items-center gap-2 py-2'>
+    <div className='flex flex-col items-center gap-2 py-2 pb-8'>
       <figure>
         <img src={img} alt="" />
       </figure>
