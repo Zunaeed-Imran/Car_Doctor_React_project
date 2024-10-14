@@ -10,15 +10,15 @@ function Hero() {
     >
       <div>
         <div className="leading-relaxed">
-          <h1 className="mb-5 text-5xl font-bold text-white text-left pl-10">
+          <h1 className="mb-5 text-5xl font-bold text-white text-left md:pl-10">
             Affordable <br /> Price For Car <br /> Servicing
           </h1>
-          <p className="mb-5 text-left text-white pl-10">
+          <p className="mb-5 text-left text-white md:pl-10">
             There are many variations of passages of available, but <br />
             the majority have suffered alteration in some form
           </p>
         </div>
-        <div className="flex text-left pl-10 gap-3">
+        <div className="flex text-left md:pl-10 gap-3">
           <button className="btn bg-[#ff3811] hover:bg-[#ff3811] text-white">
             Discover More
           </button>
