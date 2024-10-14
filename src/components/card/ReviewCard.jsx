@@ -8,8 +8,8 @@ function ReviewCard({ img, name, logo, title, comment, star }) {
           <img src={img} alt="" className="" />
         </div>
         <div className="pr-28 text-left">
-          <h2 className="text-xl font-bold ">{name}</h2>
-          <h2 className="text-xl font-bold">{title}</h2>
+          <p className="text-xl font-bold pb-2 whitespace-nowrap">{name}</p>
+          <p className="text-xl">{title}</p>
         </div>
         <div className="justify-end items-end pr-5">
           <img src={logo} alt="quto" className="" />
