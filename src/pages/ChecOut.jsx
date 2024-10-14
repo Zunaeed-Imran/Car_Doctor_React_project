@@ -52,7 +52,7 @@ function ChecOut() {
             />
           </div>
           <div className="pr-32">
-            <Link className="btn w-52 bg-orange-600 text-white" to="/test4">
+            <Link className="btn w-52 bg-[#ff3811] text-white" to="/test4">
               Order Confirm
             </Link>
           </div>

@@ -42,12 +42,11 @@ function SignUp() {
                 className="input input-bordered w-full max-w-xs"
               />
             </form>
-              <div className="items-center p-2 w-full">
-                <Link to="ok2" className="btn bg-orange-600 text-white">
-                  Sign Up
-                </Link>
-                
-              </div>
+            <div className="items-center p-2 w-full">
+              <Link to="ok2" className="btn bg-[#ff3811] text-white">
+                Sign Up
+              </Link>
+            </div>
             <div className="py-5">
               <p>
                 Already have account?

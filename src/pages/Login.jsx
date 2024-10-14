@@ -29,7 +29,7 @@ function Login() {
                 className="input input-bordered w-full max-w-xs"
               />
               <div>
-                <Link to="/ok" className="btn bg-orange-600 text-white">
+                <Link to="/ok" className="btn bg-[#ff3811] text-white">
                   Login
                 </Link>
               </div>
