@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import signupimg from "../assets/cardImage/Frame (1).png";
+import LoginLogo from "../components/card/smallComponent/LoginLogo";
 
 function SignUp() {
   return (
@@ -46,6 +47,10 @@ function SignUp() {
               <Link to="ok2" className="btn bg-[#ff3811] text-white">
                 Sign Up
               </Link>
+            </div>
+            <div className="py-4">
+              <p>Or Sign Up with</p>
+              <LoginLogo />
             </div>
             <div className="py-5">
               <p>
