@@ -32,7 +32,7 @@ function ServiceDetails() {
           <DownloadService />
           <DiscountService />
           <h1 className="text-5xl font-bold p-3 py-10">Price $250.00</h1>
-          <Link to="/error" className="btn bg-orange-600 text-white">
+          <Link to="/error" className="btn bg-[#ff3811] hover:bg-red-600 text-white">
             Proceed Checkout
           </Link>
         </div>

@@ -18,7 +18,7 @@ function DownloadService() {
             <p className="text-left">Download</p>
           </div>
           <div className="text-white">
-            <PiArrowSquareRightFill size={'3.5rem'} color="red" />
+            <PiArrowSquareRightFill size={'3.5rem'} color="#ff3811" />
           </div>
         </div>
         <div className="flex flex-row justify-between items-center p-5">
@@ -26,14 +26,11 @@ function DownloadService() {
             <IoDocumentTextOutline size={'2.5rem'} />
           </div>
           <div className="">
-            <h1 className="text-xl font-bold">Our Brochure</h1>
+            <h1 className="text-xl font-bold">Company Details</h1>
             <p className="text-left">Download</p>
           </div>
           <div className="text-white">
-            <PiArrowSquareRightFill
-              size={'3.5rem'}
-              color="red"
-            />
+            <PiArrowSquareRightFill size={'3.5rem'} color="#ff3811" />
           </div>
         </div>
       </div>
