@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function ServiceCard({img, name, price}) {
   return (
     <div>
-      <div className="">
+      <div className="ml-20">
         <img src={img} alt="" />
         <p className="text-2xl font-bold text-left py-2">{name}</p>
         <p className="text-xl font-bold text-left pb-2 text-[#ff3811]">
