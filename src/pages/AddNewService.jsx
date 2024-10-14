@@ -20,7 +20,7 @@ function AddNewService() {
       </div>
       <div className="py-20">
         <form action="" className="form-control">
-          <div className="grid grid-cols-2 justify-center items-center gap-7 pl-16">
+          <div className="grid md:grid-cols-1 lg:grid-cols-2 justify-center items-center gap-7 lg:pl-16">
             <input
               type="text"
               placeholder="Service Name"
@@ -46,10 +46,10 @@ function AddNewService() {
             <textarea
               type="textarea"
               placeholder="Product Description"
-              className="textarea textarea-bordered w-9/12 h-48 mr-44"
+              className="textarea textarea-bordered w-9/12 h-48 lg:mr-44"
             />
           </div>
-          <div className="pr-32">
+          <div className="lg:pr-32">
             <Link className="btn w-52 bg-[#ff3811] text-white" to="/test5">
               Submit
             </Link>
