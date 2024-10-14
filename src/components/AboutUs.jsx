@@ -3,7 +3,7 @@ import $aboutimg from "../assets/cardImage/aboutComponent.png";
 
 function AboutUs() {
   return (
-    <div className="p-10 grid grid-cols-2">
+    <div className="p-10 grid md:grid-cols-2">
       <div>
         <img src={$aboutimg} alt="" />
       </div>
