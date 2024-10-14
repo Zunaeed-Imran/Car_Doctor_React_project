@@ -3,7 +3,9 @@ import { CiSearch, CiShoppingBasket } from "react-icons/ci";
 import logoimage from "../assets/logo/Logo.png";
 import { FaBars } from "react-icons/fa";
 // import { Link } from "react-router-dom";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import AppointmentButton from "./card/button/AppointmentButton";
 
 
@@ -24,69 +26,69 @@ function Navbar() {
             <img alt="Tailwind CSS Navbar component" src={logoimage} />
           </div>
           <div className="pl-20 flex gap-5">
-            <Link
+            <ScrollLink
               to="hero"
               smooth={true}
               duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100	 "
             >
               Home
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               to="aboutus"
               smooth={true}
               duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100	 "
             >
               About
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               to="service"
               smooth={true}
               duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Services
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               to="popularproduct"
               smooth={true}
               duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Blog
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               to="contact"
               smooth={true}
               duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Contact
-            </Link>
-            <Link
+            </ScrollLink>
+            <RouterLink
               to="/login"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Login
-            </Link>
+            </RouterLink>
           </div>
           <div className="flex pl-20">
-            <Link
+            <RouterLink
               to="/cardetails"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2"
             >
               <CiShoppingBasket size={"1.5rem"} />
-            </Link>
-            <Link
+            </RouterLink>
+            <RouterLink
               to="/manageorder"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2"
             >
               <CiSearch size={"1.5rem"} />
-            </Link>
-            <Link to="/checkout">
+            </RouterLink>
+            <RouterLink to="/checkout">
               <AppointmentButton />
-            </Link>
+            </RouterLink>
           </div>
         </div>
       </div>
