@@ -6,8 +6,8 @@ function Footer() {
     <div>
       <footer className="footer bg-black text-white p-10">
         <aside>
-          <img src={logo} alt="" className=''/>
-          <p>
+          <img src={logo} alt="" className='pb-5'/>
+          <p className="text-left leading-relaxed pb-5">
             Edwin Diaz is a software and web <br />
             technologies engineer, a life coach <br />
             trainer who is also a serial .
