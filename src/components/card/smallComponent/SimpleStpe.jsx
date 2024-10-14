@@ -15,11 +15,11 @@ function SimpleStpe() {
           there isnt anything embarrassing hidden in the middle of text
         </p>
       </div>
-      <div className="flex flex-row gap-4 justify-center text-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center text-center items-center">
         <SimpleStepCard
           logo={<Bs1CircleFill />}
           heading={'Step One'}
-          desc={"It uses a dictionary \n of over 200 ."}
+          desc={'It uses a dictionary \n of over 200 .'}
         />
         <SimpleStepCard
           logo={<Bs2CircleFill />}
