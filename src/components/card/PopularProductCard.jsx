@@ -7,7 +7,7 @@ function PopularProductCard({img, star, name, price}) {
         <img src={img} alt="carEngine" className="block" />
         <p>{star}</p>
         <p className="text-2xl font-bold text-center py-2">{name}</p>
-        <p className="text-xl font-bold text-center pb-2 text-red-500">
+        <p className="text-xl font-bold text-center pb-2 text-[#ff3811]">
           {price}
         </p>
       </div>

@@ -8,7 +8,7 @@ function Team() {
   return (
     <div className="p-10">
       <div className="flex flex-col gap-3 pb-7">
-        <p className="text-xl font-bold text-orange-600 py-3">Team</p>
+        <p className="text-xl font-bold text-[#ff3811] py-3">Team</p>
         <h1 className="text-5xl font-bold py-3">Meet Our Team</h1>
         <p className="pb-5">
           the majority have suffered alteration in some form, by injected

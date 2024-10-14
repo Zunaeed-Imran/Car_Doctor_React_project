@@ -8,7 +8,7 @@ function Testimonial() {
   return (
     <div className="p-10 pb-28">
       <div className="flex flex-col gap-3 pb-7">
-        <p className="text-xl font-bold text-orange-600 py-3">Testimonial</p>
+        <p className="text-xl font-bold text-[#ff3811] py-3">Testimonial</p>
         <h1 className="text-5xl font-bold">What Customer Says</h1>
         <p className="py-2 leading-relaxed pb-6">
           The majority have suffered alteration in some form, by injected

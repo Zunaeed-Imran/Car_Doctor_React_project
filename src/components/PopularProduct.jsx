@@ -11,7 +11,7 @@ function PopularProduct() {
   return (
     <div className="p-10">
       <div className="flex flex-col gap-3 pb-7">
-        <p className="text-xl font-bold text-orange-600 p-3 pt-14">
+        <p className="text-xl font-bold text-[#ff3811] p-3 pt-14">
           Popular Products
         </p>
         <h1 className="text-5xl font-bold pb-5">Browse Our Products</h1>
@@ -60,7 +60,7 @@ function PopularProduct() {
         />
       </div>
       <div className="p-10">
-        <button className="btn btn-outline hover:bg-orange-600 text-orange-600">
+        <button className="btn btn-outline hover:bg-[#ff3811] text-[#ff3811]">
           More Product
         </button>
       </div>
