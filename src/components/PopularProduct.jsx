@@ -9,7 +9,7 @@ import battery from "../assets/cardImage/COOLS_LED.png";
 
 function PopularProduct() {
   return (
-    <div className="p-10">
+    <div className="p-10" id="popularproduct">
       <div className="flex flex-col gap-3 pb-7">
         <p className="text-xl font-bold text-[#ff3811] p-3 pt-14">
           Popular Products
@@ -25,38 +25,38 @@ function PopularProduct() {
         <PopularProductCard
           img={carEngine}
           star={<RatingProduct />}
-          name={'Car Engine Plug'}
-          price={'$20.00'}
+          name={"Car Engine Plug"}
+          price={"$20.00"}
         />
         <PopularProductCard
           img={airFilter}
           star={<RatingProduct />}
-          name={'Car Air Filter'}
-          price={'$20.00'}
+          name={"Car Air Filter"}
+          price={"$20.00"}
         />
         <PopularProductCard
           img={rearBreack}
           star={<RatingProduct />}
-          name={'Cools Led Light'}
-          price={'$20.00'}
+          name={"Cools Led Light"}
+          price={"$20.00"}
         />
         <PopularProductCard
           img={frontBreack}
           star={<RatingProduct />}
-          name={'Cools Led Light'}
-          price={'$20.00'}
+          name={"Cools Led Light"}
+          price={"$20.00"}
         />
         <PopularProductCard
           img={tair}
           star={<RatingProduct />}
-          name={'Cools Led Light'}
-          price={'$20.00'}
+          name={"Cools Led Light"}
+          price={"$20.00"}
         />
         <PopularProductCard
           img={battery}
           star={<RatingProduct />}
-          name={'Cools Led Light'}
-          price={'$20.00'}
+          name={"Cools Led Light"}
+          price={"$20.00"}
         />
       </div>
       <div className="p-10">

@@ -25,7 +25,9 @@ function Navbar() {
           </div>
           <div className="pl-20 flex gap-5">
             <Link
-              to="/"
+              to="hero"
+              smooth={true}
+              duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100	 "
             >
               Home
@@ -39,19 +41,25 @@ function Navbar() {
               About
             </Link>
             <Link
-              to="/addnewservice"
+              to="service"
+              smooth={true}
+              duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Services
             </Link>
             <Link
-              to="/test"
+              to="popularproduct"
+              smooth={true}
+              duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Blog
             </Link>
             <Link
-              to="/test"
+              to="contact"
+              smooth={true}
+              duration={500}
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2 bg-slate-100 "
             >
               Contact
