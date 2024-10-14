@@ -16,7 +16,7 @@ function Testimonial() {
           believable.
         </p>
       </div>
-      <div className="grid md:grid-cols-1 lg:grid-cols-2 box-content">
+      <div className="grid grid-cols-1 lg:grid-cols-2 box-content">
         <ReviewCard
           img={man1}
           name={'Awlad Hossain'}
