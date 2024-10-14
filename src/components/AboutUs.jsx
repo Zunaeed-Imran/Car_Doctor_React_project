@@ -8,7 +8,7 @@ function AboutUs() {
         <img src={$aboutimg} alt="" />
       </div>
       <div className="flex flex-col justify-between">
-        <h3 className="text-xl text-orange-600 font-bold mb-3 text-left">
+        <h3 className="text-xl text-[#ff3811] font-bold mb-3 text-left">
           About Us
         </h3>
         <h1 className="text-5xl font-bold pb-8 text-left">
@@ -26,8 +26,8 @@ function AboutUs() {
           humour, or randomised words which dont look even slightly believable.
         </p>
         <Link
-          to='/lalala'
-          className="btn bg-orange-600 hover:bg-orange-700 text-white w-40"
+          to="/lalala"
+          className="btn bg-[#ff3811] hover:bg-orange-700 text-white w-40"
         >
           Get More Info
         </Link>

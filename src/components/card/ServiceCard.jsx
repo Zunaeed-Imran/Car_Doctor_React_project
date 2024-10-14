@@ -6,12 +6,14 @@ function ServiceCard({img, name, price}) {
   return (
     <div>
       <div className="">
-          <img src={img} alt="" />
-        <p className='text-2xl font-bold text-left py-2'>{name}</p>
-        <p className='text-xl font-bold text-left pb-2 text-red-500'>{price}</p>
+        <img src={img} alt="" />
+        <p className="text-2xl font-bold text-left py-2">{name}</p>
+        <p className="text-xl font-bold text-left pb-2 text-[#ff3811]">
+          {price}
+        </p>
       </div>
     </div>
-  )
+  );
 }
 
 export default ServiceCard

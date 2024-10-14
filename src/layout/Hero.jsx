@@ -19,22 +19,22 @@ function Hero() {
           </p>
         </div>
         <div className="flex text-left pl-10 gap-3">
-          <button className="btn bg-orange-600 hover:bg-orange-500 text-white">
+          <button className="btn bg-[#ff3811] hover:bg-[#ff3811] text-white">
             Discover More
           </button>
-          <button className="btn btn-outline hover:bg-orange-600 text-white">
+          <button className="btn btn-outline hover:bg-[#ff3811] text-white">
             Latest Project
           </button>
         </div>
       </div>
-        <div className="absolute bottom-4 right-4 flex gap-3">
-          <button className="btn btn-circle btn-outline bg-[#FF4500]">
-            <HiArrowSmLeft size="1.5rem" />
-          </button>
-          <button className="btn btn-circle btn-outline bg-[#FF4500]">
-            <HiArrowSmRight size="1.5rem" />
-          </button>
-        </div>
+      <div className="absolute bottom-4 right-4 flex gap-3">
+        <button className="btn btn-circle btn-outline bg-[#ff3811]">
+          <HiArrowSmLeft size="1.5rem" />
+        </button>
+        <button className="btn btn-circle btn-outline bg-[#ff3811]">
+          <HiArrowSmRight size="1.5rem" />
+        </button>
+      </div>
     </div>
   );
 }

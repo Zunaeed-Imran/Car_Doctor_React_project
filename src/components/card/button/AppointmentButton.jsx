@@ -3,7 +3,9 @@
 function AppointmentButton() {
   return (
     <div>
-      <button className="btn btn-outline text-orange-600 hover:bg-orange-600">Appointment</button>
+      <button className="btn btn-outline text-[#ff3811] hover:bg-[#ff3811]">
+        Appointment
+      </button>
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Service() {
   return (
     <div>
       <div className="flex flex-col gap-3 pb-5">
-        <p className="text-xl font-bold text-orange-600 p-3">Service</p>
+        <p className="text-xl font-bold text-[#ff3811] p-3">Service</p>
         <h1 className="text-5xl font-bold pb-5">Our Service Area</h1>
         <p className="mb-3">
           the majority have suffered alteration in some form, by injected
@@ -52,7 +52,7 @@ function Service() {
       <div className="py-8 pb-20">
         <Link
           to="/servicedetails"
-          className="btn btn-outline hover:bg-orange-600 text-orange-600"
+          className="btn btn-outline hover:bg-[#ff3811] text-[#ff3811]"
         >
           More Service
         </Link>
