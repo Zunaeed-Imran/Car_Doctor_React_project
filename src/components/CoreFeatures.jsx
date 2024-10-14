@@ -18,7 +18,7 @@ function CoreFeatures() {
           believable.
         </p>
       </div>
-      <div className="flex flex-row justify-center gap-6 pb-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
         <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3">
           <RiTeamFill size={'5rem'} className="pb-3" />
           <p className="text-xl font-bold text-center">Expart Team</p>
