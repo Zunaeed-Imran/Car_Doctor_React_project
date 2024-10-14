@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function ReviewCard({ img, name, logo, title, comment, star }) {
   return (
-    <div className="flex flex-col gap-5 items-start py-2 pl-10">
+    <div className="flex flex-col gap-5 items-start py-2 pl-10 pb-10">
       <div className="flex flex-row gap-10 justify-between w-full">
         <div className="pl-2">
           <img src={img} alt="" className="" />
