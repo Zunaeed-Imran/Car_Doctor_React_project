@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import loginimg from "../assets/cardImage/Frame (1).png";
+import LoginLogo from "../components/card/smallComponent/LoginLogo";
 
 function Login() {
   return (
@@ -34,6 +35,10 @@ function Login() {
                 </Link>
               </div>
             </form>
+            <div className="py-4">
+              <p>Or Sign In with</p>
+              <LoginLogo/>
+            </div>
             <div className="py-5">
               <p>
                 Dont have account?
