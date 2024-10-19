@@ -20,7 +20,7 @@ function ChecOut() {
       >
         <h1 className="text-5xl font-bold text-white pl-10">Check Out</h1>
       </div>
-      <div className="py-20">
+      <div className="py-20 bg-[#F3F3F3]">
         <form action="" className="form-control">
           <div className="grid md:grid-cols-1 lg:grid-cols-2 justify-center items-center gap-7 lg:pl-16">
             <input
