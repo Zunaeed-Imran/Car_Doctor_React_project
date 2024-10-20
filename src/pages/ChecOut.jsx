@@ -22,7 +22,7 @@ function ChecOut() {
       </div>
       <div className="my-20 p-20 rounded-md bg-[#F3F3F3]">
         <form action="" className="">
-          <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-7 lg:pl-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-7 ">
             <input
               type="text"
               placeholder="First Name"
