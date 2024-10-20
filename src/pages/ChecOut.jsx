@@ -21,27 +21,27 @@ function ChecOut() {
         <h1 className="text-5xl font-bold text-white pl-10">Check Out</h1>
       </div>
       <div className="my-20 p-20 rounded-md bg-[#F3F3F3]">
-        <form action="" className="form-control">
-          <div className="grid md:grid-cols-1 lg:grid-cols-2 justify-center items-center gap-7 lg:pl-16">
+        <form action="" className="">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-7 lg:pl-16">
             <input
               type="text"
               placeholder="First Name"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered w-full "
             />
             <input
               type="text"
               placeholder="Last Name"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered w-full "
             />
             <input
               type="number"
               placeholder="Your Phone"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered w-full "
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered w-full "
             />
           </div>
           <div className="py-3 sm:pl-20 lg:p-5 justify-center items-center">
