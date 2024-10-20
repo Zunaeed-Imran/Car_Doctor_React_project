@@ -44,11 +44,11 @@ function ChecOut() {
               className="input input-bordered w-full "
             />
           </div>
-          <div className="py-3 sm:pl-20 lg:p-5 justify-center items-center">
+          <div className="py-5 justify-center items-center">
             <textarea
               type="textarea"
               placeholder="Your Message"
-              className="textarea textarea-bordered lg:w-9/12 h-48 lg:mr-44"
+              className="textarea textarea-bordered w-full h-40"
             />
           </div>
           <div className="lg:pr-32 justify-center items-center">
