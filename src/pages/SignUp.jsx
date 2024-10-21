@@ -14,8 +14,8 @@ function SignUp() {
             <div className=" items-center py-3 pb-5">
               <h1 className="text-3xl font-bold">Sign Up</h1>
             </div>
-            <form action="" className="flex flex-col gap-4">
-              <label htmlFor="" className="font-bold items-baseline">
+            <form action="" className="flex flex-col gap-5">
+              <label htmlFor="" className="font-bold items-baseline text-left">
                 Name
               </label>
               <input
@@ -23,7 +23,7 @@ function SignUp() {
                 placeholder="Your name"
                 className="input input-bordered w-full"
               />
-              <label htmlFor="" className="font-bold">
+              <label htmlFor="" className="font-bold text-left">
                 Email
               </label>
               <input
@@ -31,7 +31,7 @@ function SignUp() {
                 placeholder="Your email"
                 className="input input-bordered w-full"
               />
-              <label htmlFor="" className="font-bold">
+              <label htmlFor="" className="font-bold text-left">
                 Confirm Password
               </label>
               <input
