@@ -5,7 +5,7 @@ import LoginLogo from "../components/card/smallComponent/LoginLogo";
 function Login() {
   return (
     <div>
-      <div className="grid grid-cols-2 justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
         <div className="pt-32 items-center">
           <img src={loginimg} alt="" />
         </div>
