@@ -37,18 +37,16 @@ function Login() {
                 Login
               </Link>
             </form>
-            <div className="py-4">
+            <div className="py-5">
               <p>Or Sign In with</p>
               <LoginLogo />
             </div>
-            <div className="py-5">
               <p>
                 Dont have account?
-                <Link className="link  text-orange-600" to="/signup">
+                <Link className="link  text-orange-600 py-6" to="/signup">
                   Sign-Up
                 </Link>
               </p>
-            </div>
           </div>
         </div>
       </div>
