@@ -16,24 +16,29 @@ function Login() {
               <label htmlFor="" className="font-semibold m-1 text-left">
                 Email
               </label>
-              <input
-                type="email"
-                placeholder="Your email"
-                className="input input-bordered w-full max-w-xs"
-              />
+              <div>
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  className="input input-bordered w-full max-w-xs"
+                  />
+                </div>
               <label htmlFor="" className="font-semibold m-1 text-left">
                 Confirm Password
               </label>
-              <input
-                type="password"
-                placeholder="Your password"
-                className="input input-bordered w-full max-w-xs"
-              />
               <div>
-                <Link to="/ok" className="btn bg-[#ff3811] text-white">
+                <input
+                  type="password"
+                  placeholder="Your password"
+                  className="input input-bordered w-full max-w-xs"
+                  />
+                </div>
+              <Link
+                to="/ok"
+                className="btn bg-[#ff3811] text-white">
                   Login
                 </Link>
-              </div>
+
             </form>
             <div className="py-4">
               <p>Or Sign In with</p>
