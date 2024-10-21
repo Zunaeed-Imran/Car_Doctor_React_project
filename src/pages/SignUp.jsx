@@ -24,7 +24,7 @@ function SignUp() {
               <input
                 type="text"
                 placeholder="Your name"
-                className="input input-bordered w-full max-w-xs"
+                className="input input-bordered w-full"
               />
               <label htmlFor="" className="font-bold">
                 Email
@@ -32,7 +32,7 @@ function SignUp() {
               <input
                 type="email"
                 placeholder="Your email"
-                className="input input-bordered w-full max-w-xs"
+                className="input input-bordered w-full"
               />
               <label htmlFor="" className="font-bold">
                 Confirm Password
@@ -40,14 +40,12 @@ function SignUp() {
               <input
                 type="password"
                 placeholder="Your Password"
-                className="input input-bordered w-full max-w-xs"
+                className="input input-bordered w-full"
               />
             </form>
-            <div className="items-center p-2 w-full">
               <Link to="ok2" className="btn bg-[#ff3811] text-white">
                 Sign Up
               </Link>
-            </div>
             <div className="py-4">
               <p>Or Sign Up with</p>
               <LoginLogo />
