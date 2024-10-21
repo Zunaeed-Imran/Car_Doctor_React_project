@@ -5,12 +5,12 @@ import LoginLogo from "../components/card/smallComponent/LoginLogo";
 function SignUp() {
   return (
     <div>
-      <div className="flex flex-row pt-20 justify-around">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
         <div className="">
           <img src={signupimg} alt="Sign Up Image" />
         </div>
-        <div className="">
-          <div className="">
+        <div className="pt-32 items-center justify-center">
+          <div className="md:border-2 border-[#D0D0D0] rounded-md md:p-10 md:px-20">
             <div className=" items-center py-3 pb-5">
               <h1 className="text-3xl font-bold">Sign Up</h1>
             </div>
