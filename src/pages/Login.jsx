@@ -16,23 +16,19 @@ function Login() {
               <label htmlFor="" className="font-semibold m-1 text-left">
                 Email
               </label>
-              <div>
                 <input
                   type="email"
                   placeholder="Your email"
                   className="input input-bordered w-full"
                 />
-              </div>
               <label htmlFor="" className="font-semibold m-1 text-left">
                 Confirm Password
               </label>
-              <div>
                 <input
                   type="password"
                   placeholder="Your password"
                   className="input input-bordered w-full"
                 />
-              </div>
               <Link to="/ok" className="btn bg-[#ff3811] text-white">
                 Login
               </Link>
