@@ -5,13 +5,13 @@ import LoginLogo from "../components/card/smallComponent/LoginLogo";
 function Login() {
   return (
     <div>
-      <div className="flex">
-        <div className="pt-32">
+      <div className="grid grid-cols-2 justify-center items-center">
+        <div className="pt-32 items-center">
           <img src={loginimg} alt="" />
         </div>
-        <div className="pt-20 hero m-20">
-          <div className="min-h-screen">
-            <form action="" className="flex flex-col gap-2">
+        <div className="pt-32 items-center justify-center">
+          <div className="">
+            <form action="" className="">
               <h1 className="text-3xl font-bold py-7">Login</h1>
               <label htmlFor="" className="font-semibold m-1 text-left">
                 Email
