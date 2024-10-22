@@ -6,3 +6,6 @@ Car Doctor React project.
 - Need to responsive the checkout page in all device.
 - Need to fix the login page and make responsive in all device.
 - Need to fix the Sign-Up page and make responsive in all device.
+
+### More task for this project.
+- need a add add and react helmet.
