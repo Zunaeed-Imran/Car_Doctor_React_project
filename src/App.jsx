@@ -8,6 +8,7 @@ import Team from './components/Team';
 import Testimonial from './components/Testimonial';
 import Footer from './layout/Footer';
 import Hero from './layout/Hero';
+import PageTitle from './services/PageTitle';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <div>
+        <PageTitle title={'Car Doctor'} />
         <Hero />
         <AboutUs />
         <Service />
@@ -22,7 +24,7 @@ function App() {
         <Team />
         <CoreFeatures />
         <Testimonial />
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

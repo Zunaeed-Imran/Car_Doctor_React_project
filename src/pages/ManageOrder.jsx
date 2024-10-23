@@ -7,10 +7,12 @@ import ApprovedButton from "../components/card/button/ApprovedButton";
 import img1 from "../assets/cardImage/Rectangle 65 (3).png";
 import img2 from "../assets/cardImage/dfdsfsdf.png";
 import img3 from "../assets/cardImage/Rectangle 65 (5).png";
+import PageTitle from "../services/PageTitle";
 
 function ManageOrder() {
   return (
     <div>
+      <PageTitle title={'ManageOrder'}/>
       <div className="pb-10">
         <Navbar />
       </div>

@@ -7,10 +7,12 @@ import engine from '../assets/cardImage/Rectangle 65.png';
 import autochack from '../assets/cardImage/Rectangle 65 (1).png';
 import manualchack from '../assets/cardImage/Rectangle 65 (2).png';
 import { FaXmark } from "react-icons/fa6";
+import PageTitle from "../services/PageTitle";
 
 function CarDetails() {
   return (
     <div>
+      <PageTitle title={'Car Details'}/>
       <div className="pb-10">
         <Navbar />
       </div>

@@ -2,11 +2,13 @@ import Navbar from "../components/Navbar"
 import checkOut from "../assets/pageImage/RectangleShadow.png";
 import Footer from "../layout/Footer";
 import { Link } from "react-router-dom";
+import PageTitle from "../services/PageTitle";
 
 
 function ChecOut() {
   return (
     <div>
+      <PageTitle title={'CheckOut'}/>
       <div>
         <Navbar />
       </div>
