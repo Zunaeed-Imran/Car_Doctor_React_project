@@ -27,7 +27,8 @@ function Navbar() {
           {/* Hamburger menu visible on mobile */}
           <FaBars />
         </button>
-        <div className={`${mobile ? 'flex' : 'hidden'} md:flex gap-3`}>
+        <div className={`${mobile ? 'flex' : 'hidden'}
+          flex-col gap-1 md:flex md:flex-row`}>
           {' '}
           {/* Hidden on mobile */}
           <div className="w-14">
