@@ -14,4 +14,6 @@ Car Doctor React project.
 - browse our project section need some more style in the card.
 - why choose us section need border.
 - testimonial section need border.
+- need to fix the screen width.
+- our service area need a border.
 - 
