@@ -7,25 +7,33 @@ import { FaBars } from "react-icons/fa";
 import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import AppointmentButton from "./card/button/AppointmentButton";
+import { useState } from "react";
 
 
 
 function Navbar() {
+// toggle nav button function.
+  const [mobile, setMobile] = useState(false);
+
+  const toggleMobile = () => {
+    setMobile(!mobile);
+  };
+
   return (
     <div className="flex top-0 justify-between items-center fixed w-full bg-slate-50	 p-3 px-4 md:px-10 lg:px-20 z-50">
       <div className="flex items-center">
-        <button className="md:hidden">
-          {" "}
+        <button className="md:hidden" onClick={toggleMobile}>
+          {' '}
           {/* Hamburger menu visible on mobile */}
           <FaBars />
         </button>
-        <div className="hidden md:flex gap-3">
-          {" "}
+        <div className={`${mobile ? 'flex' : 'hidden'} md:flex gap-3`}>
+          {' '}
           {/* Hidden on mobile */}
           <div className="w-14">
             <img alt="Tailwind CSS Navbar component" src={logoimage} />
           </div>
-          <div className="pl-20 flex gap-5">
+          <div className="pl-20 flex gap-5 ">
             <RouterLink
               to="/"
               smooth={true}
@@ -78,13 +86,13 @@ function Navbar() {
               to="/cardetails"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2"
             >
-              <CiShoppingBasket size={"1.5rem"} />
+              <CiShoppingBasket size={'1.5rem'} />
             </RouterLink>
             <RouterLink
               to="/manageorder"
               className="btn glass flex border-white border rounded-lg px-4 py-2 items-center gap-2"
             >
-              <CiSearch size={"1.5rem"} />
+              <CiSearch size={'1.5rem'} />
             </RouterLink>
             <RouterLink to="/checkout">
               <AppointmentButton />
