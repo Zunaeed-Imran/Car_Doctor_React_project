@@ -32,7 +32,10 @@ function Service() {
           name={'Engine Diagnostics'}
           price={'Price : $20.00'}
         />
-        <ServiceCard img={$autoCar} name={'Auto Car Repiar'} price={'$20.00'} />
+        <ServiceCard
+          img={$autoCar}
+          name={'Auto Car Repiar'}
+          price={'$20.00'} />
         <ServiceCard
           img={$Elictrical}
           name={'Electrical System'}
