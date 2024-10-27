@@ -2,9 +2,13 @@ import PropTypes from 'prop-types';
 
 function PopularProductCard({img, star, name, price}) {
   return (
-    <div>
-      <div className="flex flex-col items-center gap-2 py-2 rounded-md">
-        <img src={img} alt="carEngine" className="block bg-[#F3F3F3] p-2 rounded-md" />
+    <div className="border-[#F3F3F3] border-2 m-2 rounded-md">
+      <div className="flex flex-col items-center gap-2 py-2 ">
+        <img
+          src={img}
+          alt="carEngine"
+          className="block bg-[#F3F3F3] p-2 rounded-md"
+        />
         <p>{star}</p>
         <p className="text-2xl font-bold text-center py-2">{name}</p>
         <p className="text-xl font-bold text-center pb-2 text-[#ff3811]">
