@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 function ReviewCard({ img, name, logo, title, comment, star }) {
   return (
-    <div className="flex flex-col gap-5 items-start py-2 pl-10 pb-10">
+    <div className="flex flex-col gap-5 items-start py-2 pl-10 pb-10 border border-[#E8E8E8] m-2 rounded-md">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
-        <div className="pl-2">
+        <div className="pl-2 pt-4">
           <img src={img} alt="" className="" />
         </div>
         <div className="pr-28 text-left">
