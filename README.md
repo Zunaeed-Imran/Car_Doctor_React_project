@@ -11,7 +11,7 @@ Car Doctor React project.
 - need a add add and react helmet.
 
 ### what more i need to change this project.
-- browse our project section need some more style in the card.
+- browse our product section need some more style in the card.
 - why choose us section need border.
 - testimonial section need border.
 - need to fix the screen width.
