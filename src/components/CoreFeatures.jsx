@@ -18,28 +18,28 @@ function CoreFeatures() {
           believable.
         </p>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 ">
+        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3 border border-[#E8E8E8]">
           <RiTeamFill size={'5rem'} className="pb-3" />
           <p className="text-xl font-bold text-center">Expart Team</p>
         </div>
-        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3">
+        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3 border border-[#E8E8E8]">
           <IoTimer size={'5rem'} className="pb-3" />
           <p className="text-xl font-bold text-center">Timely Delivery</p>
         </div>
-        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3">
+        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3 border border-[#E8E8E8]">
           <FcCustomerSupport size={'5rem'} className="pb-3" />
           <p className="text-xl font-bold text-center">24/7 Support</p>
         </div>
-        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3">
+        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3 border border-[#E8E8E8]">
           <FaTools size={'5rem'} className="pb-3" />
           <p className="text-xl font-bold text-center">Best Equipment</p>
         </div>
-        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3">
+        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3 border border-[#E8E8E8]">
           <SiAdguard size={'5rem'} className="pb-3" />
           <p className="text-xl font-bold text-center">100% Guranty</p>
         </div>
-        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3">
+        <div className="flex flex-col items-center justify-center hover:bg-[#ff3811] p-3 rounded-md m-3 border border-[#E8E8E8]">
           <TbTruckDelivery size={'5rem'} className="pb-3" />
           <p className="text-xl font-bold text-center">Timely Delivery</p>
         </div>
