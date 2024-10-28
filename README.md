@@ -10,7 +10,7 @@ Car Doctor React project.
 ### More task for this project.
 - need a add add and react helmet.
 
-### what more i need to change this project.
+### what more i need to change this project. (done all from this list)
 - browse our product section need some more style in the card.
 - why choose us section need border.
 - testimonial section need border.
